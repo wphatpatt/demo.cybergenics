@@ -3,48 +3,48 @@
         "en": {
             "title": "Professional",
             "description": "As a professional leader, we have gained expertise and experiences from developing cybersecurity solutions & systems for various organizations and industries for more than 33 years.",
-            "img": "../images/icon-home/Professional.png"
+            "img": "./assets/images/icon-home/Professional.png"
         },
         "th": {
             "title": "Professional",
             "description": "เราดำเนินงานด้วยประสบการณ์ และความเชี่ยวชาญเฉพาะมามากกว่า 33 ปี ในการพัฒนาระบบ Cybersecurity ให้กับองค์กรชั้นนำ",
-            "img": "../images/icon-home/Professional.png"
+            "img": "./assets/images/icon-home/Professional.png"
         }
     },
     {
         "en": {
             "title": "Proactive",
             "description": "We have proactive mindset and adaptable plan to match constant changes and monitor every threats in cyberspace.",
-            "img": "../images/icon-home/Proactive.png"
+            "img": "./assets/images/icon-home/Proactive.png"
         },
         "th": {
             "title": "Proactive",
             "description": "เราทำงานเชิงรุก พร้อมปรับแผนดำเนินงานให้สอดคล้องกับสถานการณ์โลกตลอดเวลา เฝ้าระวังทุกความเสี่ยงในโลกไซเบอร์",
-            "img": "../images/icon-home/Proactive.png"
+            "img": "./assets/images/icon-home/Proactive.png"
         }
     },
     {
         "en": {
             "title": "Progressive",
             "description": "We strive and reach the goals with Partner Mindset Team. Give your business the most efficient results.",
-            "img": "../images/icon-home/Progressive.png"
+            "img": "./assets/images/icon-home/Progressive.png"
         },
         "th": {
             "title": "Progressive",
             "description": "เรามุ่งมั่น และบรรลุเป้าหมายด้วย Partner Mindset Team เพื่อให้เกิดผลลัพธ์ที่สำเร็จสูงสุดแก่ธุรกิจของคุณ",
-            "img": "../images/icon-home/Progressive.png"
+            "img": "./assets/images/icon-home/Progressive.png"
         }
     },
     {
         "en": {
             "title": "Proficient",
             "description": "We are the cybersecurity expert team. Ready for all-scale service delivery. Commit to making SLA reaches 85%+",
-            "img": "../images/icon-home/Proficient.png"
+            "img": "./assets/images/icon-home/Proficient.png"
         },
         "th": {
             "title": "Proficient",
             "description": "เราคือ ทีมผู้ชำนาญการด้านความปลอดภัยด้านไซเบอร์ พร้อมสำหรับ All-Scale Service Delivery โดยยึดถือข้อตกลงด้านบริการร่วมกับลูกค้า SLA 85%+",
-            "img": "../images/icon-home/Proficient.png"
+            "img": "./assets/images/icon-home/Proficient.png"
         }
     }
 ]
