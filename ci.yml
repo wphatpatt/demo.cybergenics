@@ -1,0 +1,14 @@
+name: CI
+
+on:
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      run: npm install
+      run: npm run watch && npx http-server -p 5500 ./html
