@@ -402,7 +402,7 @@
   height: 0;
   /* border: 6px solid transparent; */
   /* border-color: #fff transparent transparent transparent; */
-  /* background: url("/assets/images/home/arrow-down.png") no-repeat right #ffffff; */
+  /* background: url("/.assets/images/home/arrow-down.png") no-repeat right #ffffff; */
   border: solid white;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
@@ -416,7 +416,7 @@
 .list-group-mobile .select-selected-service.select-arrow-active-service:after {
   /* border-color: transparent transparent #fff transparent; */
   top: 12px;
-  /* background: url("/assets/images/home/arrow-up.png") no-repeat right #ffffff; */
+  /* background: url("/.assets/images/home/arrow-up.png") no-repeat right #ffffff; */
   border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
@@ -540,7 +540,7 @@
 }
 
 .service-page .page-banner {
-  background-image: linear-gradient(to right, rgba(0,0,0,0.8) 20%, rgba(0,0,0, 0) 50%),url('/assets/images/banners/solution.png');
+  background-image: linear-gradient(to right, rgba(0,0,0,0.8) 20%, rgba(0,0,0, 0) 50%),url('../images/banners/solution.png');
 }
 
 .newline-dis::before {
@@ -560,7 +560,7 @@
   }
 
   .service-page .page-banner {
-    background-image: url('/assets/images/banners/Mobile_BG_Solution.png');
+    background-image: url('../images/banners/Mobile_BG_Solution.png');
   }
 
   .tech-solution .left-img {
@@ -871,7 +871,7 @@
 
 @media screen and (max-width: 767px) {
   .service-page .page-banner {
-    background-image: url('/assets/images/banners/Mobile_BG_Solution.png');
+    background-image: url('../images/banners/Mobile_BG_Solution.png');
   }
 
   .tech-solution .left-img {

@@ -3,36 +3,36 @@
         "en": {
             "title": "<span class=\"highlight-text\">What we do </span>",
             "description": "We are your thought partner. Based on your business requirements, we advice and co-create comprehensive and suitable cybersecurity solutions",
-            "img": "/assets/images/icon-home/What we do.png"
+            "img": "/.assets/images/icon-home/What we do.png"
         },
         "th": {
             "title": "<span class=\"highlight-text\">What we do </span>",
             "description": "ร่วมเป็นพาร์ทเนอร์ความคิด จากโจทย์ทางธุรกิจของลูกค้า แนะนำ พร้อมวางแผน ร่วมสร้างระบบ Cybersecurity Solution ที่ครบวงจร และเหมาะสมให้กับธุรกิจของคุณ",
-            "img": "/assets/images/icon-home/What we do.png"
+            "img": "/.assets/images/icon-home/What we do.png"
         }
     },
     {
         "en": {
             "title": "<span class=\"highlight-text\">How we deliver </span>",
             "description": "Our mission is to deliver cybersecurity solutions and pick the right technology for your businesses. We combine our team’s diverse experiences to serve various business groups.",
-            "img": "/assets/images/icon-home/How we deliver.png"
+            "img": "/.assets/images/icon-home/How we deliver.png"
         },
         "th": {
             "title": "<span class=\"highlight-text\">How we deliver </span>",
             "description": "ด้วยแนวความคิดที่พร้อมส่งมอบ Cybersecurity Solution และการคัดสรรเทคโนโลยีที่เหมาะสมให้กับธุรกิจของคุณ ผสานกับประสบการณ์ที่หลากหลายของทีมงาน ให้กับกลุ่มธุรกิจต่างๆ",
-            "img": "/assets/images/icon-home/How we deliver.png"
+            "img": "/.assets/images/icon-home/How we deliver.png"
         }
     },
     {
         "en": {
             "title": "<span class=\"highlight-text\">Our professionals <br> and standards</span>",
             "description": "At CyberGenics, we comply with international standards such as NIST Cybersecurity Framework, ISO 27001",
-            "img": "/assets/images/icon-home/Our Standard.png"
+            "img": "/.assets/images/icon-home/Our Standard.png"
         },
         "th": {
             "title": "<span class=\"highlight-text\">Our professionals <br> and standards</span>",
             "description": "เราปฏิบัติตามมาตรฐานสากล NIST Cybersecurity Framework, ISO 27001",
-            "img": "/assets/images/icon-home/Our Standard.png"
+            "img": "/.assets/images/icon-home/Our Standard.png"
         }
     }
 ]

@@ -129,13 +129,13 @@
 }
 
 .customer-page .page-banner {
-  background-image: url('/assets/images/customer/customer-success.png');
+  background-image: url('../images/customer/customer-success.png');
 }
 
 
 @media screen and (max-width: 1279px) {
   .customer-page .page-banner {
-    background-image: url('/assets/images/banners/Mobile_BG_Customer Success.png');
+    background-image: url('../images/banners/Mobile_BG_Customer Success.png');
   }
 
 

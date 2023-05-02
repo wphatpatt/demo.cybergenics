@@ -2,7 +2,7 @@
 jQuery('#main-header').load('./header.html');
 jQuery('#main-footer').load('./footer.html');
 jQuery(document).ready(function () {
-  jQuery.getScript('/assets/js/script.js');
+  jQuery.getScript('./assets/js/script.js');
   setTimeout(() => {
     $('.preloader').delay(200).fadeOut(500);
   }, 200)

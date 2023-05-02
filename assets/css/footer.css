@@ -149,7 +149,7 @@ div.logo-bottomright-footer {
 .select-selected.select-arrow-active:after {
     /* border-color: transparent transparent #fff transparent; */
     top: 20px;
-    /* background: url("/assets/images/home/arrow-up.png") no-repeat right #ffffff; */
+    /* background: url("/.assets/images/home/arrow-up.png") no-repeat right #ffffff; */
     border: solid white;
     border-width: 0 2px 2px 0;
     display: inline-block;
