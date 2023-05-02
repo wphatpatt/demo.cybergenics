@@ -1,0 +1,28 @@
+[
+  {
+    "imageSrc": "/config/news/images/AdvancedPartnerofTheYear2022.png",
+    "en": {
+      "date": "25 May 2022",
+      "title": "Advance partner of the year 2022",
+      "link": ""
+    },
+    "th": {
+      "date": "25 May 2022",
+      "title": "Advance partner of the year 2022",
+      "link": ""
+    }
+  },
+  {
+    "imageSrc": "/config/news/images/TopTechnicalPerformance2022.png",
+    "en": {
+      "date": "25 May 2022",
+      "title": "Top Technical Performance 2022",
+      "link": ""
+    },
+    "th": {
+      "date": "25 May 2022",
+      "title": "Top Technical Performance 2022",
+      "link": ""
+    }
+  }
+]

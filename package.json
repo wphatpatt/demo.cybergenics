@@ -1,0 +1,17 @@
+{
+  "name": "cybergenic-static-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "static-i18n -o html -l en -i en -i th www",
+    "dev": "node mini_server.js",
+    "serve": "npx http-server -p 5500 ./html",
+    "watch": "watch -p 'www/*.html' -p 'www/locales/*.json' -c 'static-i18n -o html -l en -i en -i th www'"
+  },
+  "dependencies": {
+    "static-i18n": "^0.2.10",
+    "static-server": "^2.2.1",
+    "watch-cli": "^0.2.3"
+  }
+}

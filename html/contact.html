@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!--====== Required meta tags ======-->
+  <meta charset="utf-8">
+  <meta name="description" content>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!--====== Title ======-->
+  <title>CyberGenics</title>
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon" href="/assets/images/logos/logo_title.png" type="image/x-icon">
+  <!--====== Google Fonts ======-->
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!--====== Font Awesome ======-->
+  <link rel="stylesheet" href="/assets/css/font-awesome-5.9.0.css">
+  <!--====== Bootstrap ======-->
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <!--====== Magnific Popup ======-->
+  <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+  <!--====== Falticon ======-->
+  <link rel="stylesheet" href="/assets/css/flaticon.css">
+  <!--====== Animate ======-->
+  <link rel="stylesheet" href="/assets/css/animate.css">
+  <!--====== Slick ======-->
+  <link rel="stylesheet" href="/assets/css/slick.css">
+  <!--====== Main Style ======-->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <!-- Override style -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/gillsans/stylesheet.css">
+  <link rel="stylesheet" href="custom/style.css">
+
+  <!-- Consent by https://g-consent.com -->
+  <script type="text/javascript" src="https://gc-sdkbanner.whitefact.co/banner-core.js" cmpuser="a42477323767dc203d847b522f2549c034e7aca8b998ebeb4cf6cd3baee0bc48d7e8baba2651ab9863049d36fe4ec277" lang="EN"></script>
+  <script>
+    let map;
+    function initMap() {
+      // [START maps_js_local_context_basic_instantiation]
+      // const localContextMapView = new google.maps.localContext.LocalContextMapView({
+      //   element: document.getElementById("map"),
+      //   placeTypePreferences: [
+      //     { type: "restaurant" },
+      //     { type: "tourist_attraction" },
+      //   ],
+      //   maxPlaceCount: 12,
+      //   directionsOptions: {origin: { lat: 13.696107892391002, lng: 100.53770145497437 }}, 
+      //   // origin: ,
+      // });
+
+      // // [END maps_js_local_context_basic_instantiation]
+      // map = localContextMapView.map;
+      // // [START maps_js_local_context_basic_set_options]
+      // map.setOptions({'
+      const myLatLng = { lat: 13.696037356384515, lng: 100.53762897525567 };
+      const map = new google.maps.Map(document.getElementById("map"), {
+        center: myLatLng,
+        zoom: 17,
+        mapTypeControl: false,
+        styles: [
+          {
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#212121"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.icon",
+            "stylers": [
+              {
+                "color": "#3c3c3c"
+              },
+              {
+                "saturation": -80
+              },
+              {
+                "lightness": -50
+              }
+            ]
+          },
+          {
+            "elementType": "labels.text",
+            "stylers": [
+              {
+                "color": "#ffffff"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "elementType": "labels.text.stroke",
+            "stylers": [
+              {
+                "color": "#212121"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative.country",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#9e9e9e"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative.land_parcel",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "administrative.locality",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#bdbdbd"
+              }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#181818"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#616161"
+              }
+            ]
+          },
+          {
+            "featureType": "poi.park",
+            "elementType": "labels.text.stroke",
+            "stylers": [
+              {
+                "color": "#1b1b1b"
+              }
+            ]
+          },
+          {
+            "featureType": "road",
+            "elementType": "geometry.fill",
+            "stylers": [
+              {
+                "color": "#2c2c2c"
+              }
+            ]
+          },
+          {
+            "featureType": "road",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#8a8a8a"
+              }
+            ]
+          },
+          {
+            "featureType": "road.arterial",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#373737"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#3c3c3c"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway.controlled_access",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#4e4e4e"
+              }
+            ]
+          },
+          {
+            "featureType": "road.local",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#616161"
+              }
+            ]
+          },
+          {
+            "featureType": "transit",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#757575"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "geometry",
+            "stylers": [
+              {
+                "color": "#000000"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "labels.text.fill",
+            "stylers": [
+              {
+                "color": "#3d3d3d"
+              }
+            ]
+          }
+        ]
+      });
+      new google.maps.Marker({
+        position: myLatLng,
+        map,
+      });
+      // [END maps_js_local_context_basic_set_options]
+
+      var directionsControlDiv = document.createElement('div');
+      var directionsControl = new DirectionsControl(directionsControlDiv, map);
+
+      directionsControlDiv.index = 1;
+      map.controls[google.maps.ControlPosition.TOP_LEFT].push(directionsControlDiv);
+    }
+
+    function DirectionsControl(controlDiv, map) {
+
+      // Set CSS for the control border.
+      var controlUI = document.createElement('div');
+      controlUI.style.backgroundColor = '#231F20';
+      controlUI.style.border = '2px solid #231F20';
+      controlUI.style.borderRadius = '3px';
+      // controlUI.style.boxShadow = '0 2px 6px rgba(0,0,0,.3)';
+      controlUI.style.cursor = 'pointer';
+      controlUI.style.marginBottom = '22px';
+      controlUI.style.textAlign = 'left';
+      controlUI.style.marginTop = '10px';
+      controlUI.style.marginLeft = '10px';
+      controlUI.id = 'controlUI';
+      controlDiv.appendChild(controlUI);
+
+      // Set CSS for the control interior.
+      var controlText = document.createElement('div');
+      controlText.style.color = '#231F20';
+      controlText.style.fontFamily = 'Roboto,Arial,sans-serif';
+      controlText.style.fontSize = '16px';
+      controlText.style.lineHeight = '24px';
+      controlText.style.paddingLeft = '5px';
+      controlText.style.paddingRight = '5px';
+      controlText.id = 'controlText';
+      controlText.style.backgroundColor = '#231F20';
+      controlText.innerHTML = '<div id="controlTextInner" class="cf" style="width:350px; height:180px; background-color: #231F20; padding: 5px;"><div style="width:250px; height:auto; float: left;"><span style="color:white">CyberGenics</span><br><span style="color: #BFC0C1; font-size:16px;">127/22 Panjathani Tower, 17th Floor,<br>Nonsi Road, Chong Nonsi, Yannawa,<br> Bangkok 10120 Thailand <br> Company Registration No. 0105565133661</span><br><a href="https://www.google.com/maps/place/CyberGenics+Co.,Ltd./@13.6960193,100.5331953,17z/data=!3m1!4b1!4m6!3m5!1s0x30e29f76896d21f9:0x3051eb84ea366fb5!8m2!3d13.6960193!4d100.53768!16s%2Fg%2F11k4wwvjqz" target="_blank">View larger map</a></div><a href="https://www.google.com/maps/place/CyberGenics+Co.,Ltd./@13.6960193,100.5331953,17z/data=!3m1!4b1!4m6!3m5!1s0x30e29f76896d21f9:0x3051eb84ea366fb5!8m2!3d13.6960193!4d100.53768!16s%2Fg%2F11k4wwvjqz" target="_blank"><img id="directions" align="right;" style="width: 50px; margin-top:10px; margin-left:20px; vertical-align: top;" title="get directions" alt="get directions" src="/assets/images/direction/direction_22.png"/></a><br></div>';
+      controlUI.appendChild(controlText);
+    }
+    window.initMap = initMap;
+  </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8RL8082H5T"></script>
+  <script src="/custom/analytics.js"></script>
+</head>
+
+<body>
+  <div class="page-wrapper contact-wrapper">
+
+    <!-- Preloader -->
+    <div class="preloader">
+      <div class="theme-loader"></div>
+    </div>
+
+    <!-- main header -->
+    <header id="main-header" class="main-header header-eight"></header>
+
+
+    <!-- Page Banner Start -->
+    <section class="page-banner contact-banner bgs-cover overlay pt-80">
+      <div class="container container-banner">
+        <!-- <div class="container-new d-none" style="top: 0;overflow: hidden; left:0; right:0; height: 100%;">
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>
+          <div class='p'></div>   
+        </div>
+        <div class="container-new " style="top: 0;overflow: hidden; left:0; right:0; height: 100%;">
+          <div class="gradient-wrap">
+            <div class="meshgradient">
+              <div class="color c1"></div>
+               <div class="color c2"></div>
+               <div class="color c3"></div>
+               <div class="color c4"></div>
+            </div>
+          </div>
+        </div> -->
+        <div class="banner-inner text-left">
+          <h2 class="page-title">Contact Us</h2>
+          <p class="text-white page-subtitle">CyberGenic’s experts are ready to provide consultant and assistance on every cybersecurity need.​</p>
+        </div>
+      </div>
+    </section>
+    <!-- Page Banner End -->
+
+
+    <!-- Contact Section Start -->
+    <section class="contact-page py-120 rpy-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-xl-6">
+            <div class="about-six-content mr-65 rmr-0 wow fadeInLeft delay-0-2s" style="visibility: visible; animation-name: fadeInLeft;">
+              <div class="section-title mb-35">
+                <h4 class="mb-15 text-red">Get In Touch</h4>
+                <div class="about-six-text">
+                  <p class="des-16">If you are interested in CyberGenics’s cybersecurity solutions, please reach us via these channels.​</p>
+                </div>
+              </div>
+              <div class="service-item-six">
+                <div class="icon">
+                  <img src="/assets/images/contact/prime_map-marker.png">
+                </div>
+                <div class="service-content">
+                  <h6>Address</h6>
+                  <p>127/22 Panjathani Tower, <br> 17th Floor, Nonsi Road, Chong Nonsi,<br> Yannawa, Bangkok 10120 Thailand <span class=newline> Company Registration No. 0105565133661</span></p>
+                </div>
+              </div>
+              <div class="service-item-six">
+                <div class="icon">
+                  <img src="/assets/images/contact/ph_phone-call-light.png">
+                </div>
+                <div class="service-content">
+                  <h6>Call Us</h6>
+                  <p>02-781-9105</p>
+                </div>
+              </div>
+              <div class="service-item-six">
+                <div class="icon">
+                  <img src="/assets/images/contact/ion_mail-outline.png">
+                </div>
+                <div class="service-content">
+                  <h6>Email Us</h6>
+                  <p>Inquiry@CyberGenics.co</p>
+                </div>
+              </div>
+            </div>
+            <div class="section-social d-flex mt-5">
+              <span class="text-white">Social Account : </span>
+              <div class="list-icon d-flex">
+                <div class="icon align-center">
+                  <a class="icon-facebook" href="https://www.facebook.com/gable.th/">
+                    <img src="/assets/images/contact/facbook.svg">
+                  </a>
+                </div>
+                <div class="icon">
+                  <img src="/assets/images/contact/twitter.svg">
+                </div>
+                <div class="icon">
+                  <img src="/assets/images/contact/line.svg">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-12 col-xl-6 form-wrapper">
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+            <script>
+              hbspt.forms.create({
+                region: "na1",
+                portalId: "2667344",
+                formId: "15114447-a359-4310-b420-2a81f98a2329"
+              });
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+    <style>
+      .newline::before {
+        content: "\a";
+        white-space: pre;
+      }
+
+      .contact-page h6 {
+        color: white;
+      }
+
+      .contact-page div.form-wrapper {
+        padding: 56px;
+        padding-left: 56px;
+        padding-right: 56px;
+      }
+
+      .contact-page .about-six-content .service-item-six .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 76px;
+        width: 76px;
+      }
+
+      .contact-page .section-social {
+        justify-content: flex-start;
+        align-items: center;
+        gap: 32px;
+      }
+
+      .contact-page .section-social h6 {
+        color: #FFFFFF;
+      }
+
+      .contact-page .section-social .list-icon {
+        gap: 12px;
+      }
+
+      .contact-page .section-social .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        color: #FFFFFF;
+        background: #2A2627;
+        border: 0.5px solid rgba(0, 0, 0, 0.1);
+        ;
+      }
+
+      .contact-page .service-item-six .service-content h6 {
+        margin-bottom: 12px;
+      }
+
+      .contact-page .service-item-six .service-content p {
+        font-size: 16px;
+      }
+
+      .contact-page .hs-button.primary:hover {
+        color: white;
+        background-color: #cb2117 !important;
+        border-color: rgba(255, 0, 0, 0%) !important;
+      }
+
+      .contact-page .hs-button.primary:active {
+        color: white;
+        background-color: #9E1A12 !important;
+        border-color: rgba(255, 0, 0, 0%) !important;
+      }
+
+      .contact-page .hs_submit .hs-button {
+        width: 143px;
+        /* height: 45px; */
+        /* font-size: 18px; */
+        font-weight: 400;
+        padding: 16px 40px 16px 40px;
+      }
+
+      .contact-page .section-title p,
+      .contact-page .service-content p {
+        color: #BFC0C1;
+      }
+
+      .contact-page .service-content h6 {
+        font-weight: 400 !important;
+      }
+
+      .contact-page .section-social h6 {
+        font-size: 18px;
+        font-weight: 400 !important;
+        margin-bottom: unset;
+      }
+
+      .contact-page .hs_solutions_services span,
+      .contact-page .hs_firstname span,
+      .contact-page .hs_lastname span,
+      .contact-page .hs_phone span,
+      .contact-page .hs_email span,
+      .contact-page .hs_jobtitle span,
+      .contact-page .hs_message span {
+        font-weight: 400 !important;
+      }
+
+      .contact-page .align-center {
+        text-align: center;
+      }
+
+      .contact-page .icon-facebook {
+        width: 32px;
+        height: 32px;
+      }
+
+      .contact-wrapper .page-banner {
+        min-height: 400px;
+      }
+
+      .contact-wrapper .page-banner {
+        background-image: url('/assets/images/banners/contact.png');
+      }
+
+      .newline-dis::before {
+        content: "\a";
+        white-space: pre;
+      }
+
+
+      @media only screen and (max-width: 1279px) {
+        .newline-dis::before {
+          content: "";
+          white-space: unset;
+        }
+
+        .contact-wrapper .page-banner {
+          background-image: url('/assets/images/banners/Mobile_BG_Contact.png');
+        }
+
+        .contact-wrapper .page-banner.pt-50 {
+          /* padding-top: unset; */
+        }
+
+        .col-xl-6 {
+          max-width: 100% !important;
+        }
+
+        .contact-wrapper .row {
+          display: block;
+        }
+
+        .about-six-content {
+          margin-right: unset !important;
+          padding-right: 15px !important;
+        }
+
+        /* .form-columns-1 select {
+          width: 220% !important;
+        }
+
+        .form-columns-2 input {
+          width: 450%;
+        }
+
+        .form-columns-1 textarea {
+          width: 210% !important;
+        } */
+
+        .form-columns-2 {
+          display: grid;
+        }
+
+        .contact-page div.form-wrapper {
+          padding: 24px;
+        }
+
+        .about-six-content .des-16 {
+          margin-bottom: 48px;
+        }
+
+        .contact-page .mb-15.text-white {
+          margin-bottom: 16px;
+        }
+
+        .contact-page.py-120.rpy-100 {
+          padding-top: 64px;
+        }
+
+        .page-banner.contact-banner {
+          min-height: 1025px;
+        }
+
+        .contact-page .section-social {
+          margin-bottom: 80px;
+        }
+
+      }
+
+      @media only screen and (max-width: 1024px) {
+        .page-banner.contact-banner {
+          min-height: 1120px;
+        }
+      }
+
+      @media only screen and (max-width: 834px) {
+        .page-banner.contact-banner {
+          min-height: 890px;
+        }
+      }
+
+
+      @media only screen and (max-width: 800px) {
+        .page-banner.contact-banner {
+          min-height: 1070px;
+        }
+
+        .section-social {
+          margin-bottom: 3rem;
+        }
+      }
+
+      @media only screen and (max-width: 767px) {
+        .contact-page .hs_submit .hs-button {
+          padding: 8px 24px 8px 24px;
+        }
+
+        .about-six-content {
+          margin-right: unset !important;
+          padding-right: 15px !important;
+        }
+
+        .form-columns-2 input {
+          width: 192%;
+        }
+
+        .form-columns-2 {
+          display: grid;
+        }
+
+        .contact-page div.form-wrapper {
+          padding: 24px;
+        }
+
+        .about-six-content .des-16 {
+          margin-bottom: 48px;
+        }
+
+        .contact-page .mb-15.text-white {
+          margin-bottom: 16px;
+        }
+
+        .contact-page.py-120.rpy-100 {
+          padding-top: 64px;
+        }
+
+        .des-16 {
+          font-size: 16px;
+        }
+
+        .page-banner.contact-banner {
+          min-height: 740px;
+        }
+
+        .page-banner .page-title {
+          font-size: 32px;
+        }
+
+        .contact-page .section-title h2 {
+          font-size: 24px;
+        }
+
+        .contact-page .section-social {
+          margin-bottom: 86px;
+        }
+
+        .form-wrapper span,
+        .form-wrapper p {
+          font-size: 16px;
+        }
+      }
+
+      @media only screen and (max-width: 688px) {
+        .page-banner.contact-banner {
+          min-height: 825px;
+        }
+      }
+
+      @media only screen and (max-width: 575px) {
+
+        .contact-page div.form-wrapper {
+          width: 95%;
+          padding: 24px;
+          margin-left: 16px;
+          margin-right: 16px;
+          padding-left: 24px;
+          padding-right: 24px;
+        }
+      }
+
+      @media only screen and (max-width: 414px) {
+        .page-banner.contact-banner {
+          min-height: 675px;
+        }
+
+        .contact-page div.form-wrapper {
+          width: 90%;
+          padding: 24px;
+          margin-left: 16px;
+          margin-right: 32px;
+          padding-left: 24px;
+          padding-right: 24px;
+        }
+      }
+
+      @media only screen and (max-width: 393px) {
+        .page-banner.contact-banner {
+          min-height: 565px;
+        }
+      }
+
+      @media only screen and (max-width: 390px) {
+        .page-banner.contact-banner {
+          min-height: 620px;
+        }
+      }
+
+      @media (max-width: 384px) {
+        .page-banner.contact-banner {
+          min-height: 420px;
+        }
+      }
+
+
+      @media only screen and (max-width: 375px) {
+        .page-banner.contact-banner {
+          min-height: 590px;
+        }
+
+        .rpy-100,
+        .py-120 {
+          padding-bottom: 64px;
+          padding-top: 64px;
+          ;
+        }
+
+        .contact-page div.form-wrapper {
+          width: 89%;
+          padding: 24px;
+          margin-left: 16px;
+          margin-right: 32px;
+          padding-left: 24px;
+          padding-right: 24px;
+        }
+      }
+
+      @media only screen and (max-width: 320px) {
+        .page-banner.contact-banner {
+          min-height: 350px;
+        }
+      }
+    </style>
+    <!-- Contact Section End -->
+
+
+    <!--======== Map =========-->
+    <div class="contact-page-map">
+      <div class="our-location">
+        <div class="mapouter">
+          <div id="map"></div>
+          <script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCOWEa2eNglpZHMcIZBlB29XXOmyJiOqiE&libraries=localContext&v=beta&callback=initMap">
+            </script>
+          <style>
+            #map {
+              height: 607px;
+            }
+          </style>
+          <!-- <div class="gmap_canvas"><iframe width="100%" height="650" id="gmap_canvas"
+              style="filter: invert() grayscale(100%) hue-rotate(273deg);" marginwidth="0"
+              src="https://maps.google.com/maps?q=cybergenics&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+              scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+              href="https://embedgooglemap.net/124/"></a><br>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                height: 650px;
+                width: 100%;
+              }
+
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 650px;
+                width: 100%;
+              }
+            </style>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!--======== Map =========-->
+
+
+    <!-- Footer Area Start -->
+    <footer id="main-footer" class="main-footer footer-seven bg-black text-white pt-90"></footer>
+    <!-- Footer Area End -->
+
+  </div>
+  <!--End pagewrapper-->
+
+  <!-- Scroll Top Button -->
+  <button class="scroll-top scroll-to-target" data-target="html"><span class="fa fa-angle-up"></span></button>
+
+
+  <!--====== Jquery ======-->
+  <script src="/assets/js/jquery-3.6.0.min.js"></script>
+  <!--====== Bootstrap ======-->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
+  <!--====== Appear Js ======-->
+  <script src="/assets/js/appear.min.js"></script>
+  <!--====== Slick ======-->
+  <script src="/assets/js/slick.min.js"></script>
+  <!--====== Magnific Popup ======-->
+  <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+  <!--====== Isotope ======-->
+  <script src="/assets/js/isotope.pkgd.min.js"></script>
+  <!--  WOW Animation -->
+  <script src="/assets/js/wow.js"></script>
+  <!-- Custom script -->
+
+  <script src="custom/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,992 @@
+.contact-page .container .managementteam .sub-title {
+    color: #E1251B;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+}
+
+.contact-page .container .managementteam .title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.contact-page .container .managementteam .paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 0px 250px;
+    text-align: center;
+}
+
+.contact-page .container .section-managementteam {
+    width: 100%;
+}
+
+.contact-page .container .managementteam {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-seven-slider {
+    background: unset;
+    padding: 0px 100px;
+    width: 100%;
+    margin-top: 140px;
+}
+
+.testimonial-seven-slider .slick-arrow {
+    top: 50%;
+}
+
+.testimonial-seven-slider .slick-arrow.prev {
+    left: 0px;
+}
+
+.testimonial-seven-slider .slick-arrow.next {
+    right: 0px;
+}
+
+.testimonial-seven-slider .testimonial-item {
+    max-width: 288px;
+    width: 288px !important;
+    margin-left: 14px;
+    margin-right: 14px;
+    padding: 0px;
+    background: #2A2627;
+}
+
+.testimonial-seven-slider .testimonial-item .author-description {
+    background: #676668;
+    height: 165px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.testimonial-seven-slider .testimonial-item .author-description img {
+    margin-right: 0px;
+    position: absolute;
+    z-index: 999999;
+    bottom: 138px;
+}
+
+.testimonial-seven-slider .testimonial-item .content-title {
+    background: #2A2627;
+    height: 116px;
+}
+
+.slick-track {
+    margin-left: unset;
+    margin-right: unset;
+}
+
+.testimonial-seven-slider .slick-dots {
+    width: 90%;
+    justify-content: center;
+    margin-left: -50px;
+}
+
+.testimonial-seven-slider .slick-dots li {
+    width: 19px;
+    height: 6px;
+    cursor: pointer;
+    background: #393637;
+    position: relative;
+    border-radius: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.testimonial-seven-slider .slick-dots li.slick-active {
+    background: #E1251B;
+
+}
+
+.testimonial-seven-slider .slick-dots li.slick-active:after {
+    -webkit-transform: unset !important;
+    transform: unset;
+    width: 0px;
+    height: 0px;
+    border: 0px;
+}
+
+.testimonial-seven-slider .testimonial-item .content-title .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.testimonial-seven-slider .testimonial-item .content-title .sub-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #BFC0C1;
+    padding: 0px 18px;
+}
+
+.author-description img {
+    border-radius: 0px;
+    background: unset;
+    width: 286.98px;
+    max-width: 265.05px;
+    height: auto;
+}
+
+.testimonial-seven-slider .slick-arrow {
+    /* border-radius: 100%;
+    color: #FFFFFF;
+    width: 36px;
+    height: 36px;
+    background: #E1251B;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    z-index: 2;
+    font-size: 22px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    color: #F43336;
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: white;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.testimonial-seven-slider .slick-list {
+    overflow-y: unset;
+    overflow-x: clip;
+}
+
+.contact-page .container .section-boardofdirector {
+    width: 100%;
+    margin-top: 174px;
+}
+
+.aboutcontent-section .list-style-one li:before {
+    background: unset;
+    color: #E1251B;
+    border: 1px solid;
+}
+
+.aboutcontent-section .about-content .sub-title {
+    color: #E1251B;
+}
+
+.aboutcontent-section .section-title .sub-title {
+    color: #E1251B;
+}
+
+.aboutcontent-section .service-item-six .icon {
+    background: unset !important;
+}
+
+.about-six-content .service-item-six .icon {
+    color: #fff !important;
+    background: #E1251B !important;
+    border-radius: 50%;
+}
+
+.aboutcontent-section .service-item-six .icon img {
+    max-height: 45px;
+}
+
+.aboutcontent-section .theme-btn:hover {
+    color: white !important;
+    background-color: #cb2117 !important;
+    border-color: rgba(255, 0, 0, 0%) !important;
+}
+
+.aboutcontent-section .theme-btn:active {
+    color: white;
+    background-color: #9E1A12 !important;
+    border-color: rgba(255, 0, 0, 0%) !important;
+}
+
+.aboutcontent-section .theme-btn.style-nine,
+a.theme-btn.style-nine {
+    background: #E1251B;
+}
+
+.testimonial-seven-slider .prev.slick-arrow:hover,
+.testimonial-seven-slider .next.slick-arrow:hover {
+    color: white !important;
+    background-color: #cb2117 !important;
+}
+
+.testimonial-seven-slider .prev.slick-arrow:active,
+.testimonial-seven-slider .next.slick-arrow:active {
+    color: white;
+    background-color: #9E1A12 !important;
+}
+
+.testimonial-seven-slider .prev.slick-arrow:focus,
+.testimonial-seven-slider .next.slick-arrow:focus {
+    color: white;
+    background-color: #9E1A12 !important;
+}
+
+.section-visionandmission .content-borderleft {
+    border-left: 3px solid #E1251B;
+    padding-left: 13px;
+}
+
+.aboutus-page .about-content span.sub-title,
+.why-list span.sub-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF !important;
+}
+
+.paragraph-about-content {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.aboutus-page .about-content .list-style-one li {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.aboutus-page .about-content .theme-btn {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.why-list .p-why-us {
+    font-size: 18px;
+}
+
+.testimonial-seven-slider p.sub-author {
+    font-size: 16px;
+}
+
+.newline-dis.text-16 {
+    font-size: 16px;
+}
+
+.contact-page .service-item-six .icon {
+    color: #fff !important;
+    background: #E1251B !important;
+    border-radius: 50% !important;
+}
+
+.whyus-desktop-aboutus {
+    display: block;
+}
+
+.whyus-mobile-aboutus {
+    display: none;
+}
+
+.aboutus-page .page-banner {
+    min-height: 400px;
+}
+
+.section-managementteam .testimonial-seven-slider .slick-list .slick-track .testimonial-item .content-title,
+.section-boardofdirector .testimonial-seven-slider .slick-list .slick-track .testimonial-item .content-title {
+    text-align: center;
+}
+
+.aboutus-page .page-banner {
+    background-image: url('/assets/images/banners/aboutus.png');
+ }
+
+@media (max-width: 1200px) {
+    .testimonial-seven-slider .testimonial-item {
+        width: 240px !important;
+    }
+
+    .testimonial-seven-slider {
+        padding: 0px 85px;
+        margin-top: 100px;
+    }
+
+    .contact-page .container .managementteam .paragraph {
+        padding: 0px 200px;
+    }
+
+    .testimonial-seven-slider .slick-dots {
+        width: 80%;
+        justify-content: center;
+        margin-left: 2px;
+    }
+}
+
+@media (max-width: 1279px) {
+    .aboutus-page .page-banner {
+        background-image: url('/assets/images/banners/Mobile_BG_About us.png');
+     }
+    .about-image-shape:before {
+        display: none;
+    }
+
+    .aboutus-page .whyus-slider-wrap.testimonial-seven-slider {
+        padding: unset;
+    }
+
+    .aboutus-page .mg-b20.col-xs-6.col-lg-12.col-xl-12 {
+        padding-bottom: 64px;
+        margin-bottom: unset;
+    }
+
+    .whyus-mobile-aboutus .about-content p {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    .aboutus-page .page-banner.pt-50 {
+        /* padding-top: unset; */
+    }
+
+    .aboutus-page .page-banner {
+        min-height: 890px;
+    }
+
+    .container-us .service-item-six {
+        height: 180px;
+    }
+
+    .contact-page {
+        padding-top: 64px;
+    }
+
+    .whyus-mobile-aboutus .section-title .sub-title {
+        margin-bottom: unset;
+    }
+
+    .whyus-mobile-aboutus .section-title {
+        margin-bottom: 24px;
+    }
+
+    .whyus-mobile-aboutus .about-image-shape {
+        margin-bottom: 24px;
+    }
+
+    .whyus-mobile-aboutus {
+        display: block;
+    }
+
+    .whyus-desktop-aboutus {
+        display: none !important;
+    }
+
+    .img-about-six {
+        position: inherit;
+        left: 50%;
+    }
+
+    .container-us .whyus-slider-wrap.testimonial-seven-slider {
+        margin-top: unset;
+    }
+
+    .container-us .whyus-block {
+        height: 200px;
+    }
+
+    .container-us .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        left: unset !important;
+        margin-left: 65px;
+    }
+
+    .section-managementteam .content-title,
+    .section-boardofdirector .content-title {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .aboutus-page .page-banner {
+        min-height: 1120px;
+    }
+
+    .container-us .whyus-block .slick-slide {
+        height: 260px;
+    }
+
+    .container-us .about-section.whyus-mobile-aboutus {
+        margin-top: 64px;
+    }
+
+    .whyus-slider-wrap.testimonial-seven-slider {
+        margin-top: unset;
+    }
+
+    .whyus-slider-wrap .service-item-six .icon {
+        margin-left: unset;
+    }
+
+    .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        left: 15% !important;
+    }
+
+    .whyus-block {
+        height: 190px;
+    }
+
+    .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        top: 200px;
+    }
+
+    #whyus-mobile .about-shape-six.ml-50.mb-55 {
+        margin-left: unset;
+    }
+
+    .container-us .whyus-block {
+        height: 240px;
+    }
+
+    .container-us .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        left: 16% !important;
+        margin-left: -50px;
+        top: 230px;
+    }
+
+    .container-us #whyus-mobile p,
+    #whyus-mobile li {
+        margin-left: unset;
+    }
+
+    .container-us .section-visionandmission .pr-70 {
+        padding-right: unset;
+    }
+
+    .container-us .section-visionandmission .sub-title {
+        margin-bottom: unset;
+    }
+
+    .contact-page .container .section-boardofdirector {
+        margin-top: 140px;
+    }
+
+    .section-boardofdirector .testimonial-seven-slider .slick-dots,
+    .section-managementteam .testimonial-seven-slider .slick-dots {
+        bottom: -50px;
+    }
+}
+
+@media (max-width: 834px) {
+    .aboutus-page .page-banner {
+        min-height: 890px;
+    }
+
+    .container-us .whyus-slider-wrap {
+        padding: unset;
+    }
+
+    .container-us .whyus-block {
+        height: 260px;
+    }
+
+    .container-us .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        left: 8% !important;
+        margin-left: -50px;
+        top: 310px;
+    }
+
+    .container-us .about-image-shape {
+        margin-top: 24px;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    .aboutus-page .page-banner {
+        min-height: 1050px;
+    }
+
+    .container-us .about-section .whyus-block {
+        height: 270px !important;
+    }
+
+    .container-us .about-section .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        top: 310px !important;
+        left: 8.5% !important;
+    }
+
+    .section-boardofdirector .testimonial-seven-slider .slick-dots,
+    .section-managementteam .testimonial-seven-slider .slick-dots {
+        bottom: -40px;
+    }
+
+}
+
+@media (max-width: 990px) {
+
+    .testimonial-seven-slider {
+        padding: 0px 65px;
+        position: relative;
+    }
+
+    .contact-page .container .managementteam .paragraph {
+        padding: 0px 100px;
+        margin-top: 70px;
+    }
+
+    .testimonial-seven-slider .slick-dots {
+        width: 100%;
+        left: 0;
+        margin: 0px;
+    }
+
+    .contact-page .container .managementteam .paragraph {
+        margin-top: 25px;
+    }
+
+    .testimonial-seven-slider .testimonial-item {
+        width: 270px !important;
+    }
+
+    .testimonial-seven-slider .slick-arrow {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .contact-page .section-title h3.text-aboutus {
+        margin-top: 4px;
+        margin-bottom: unset;
+    }
+
+    .contact-page .section-title h3.highlight-text {
+        margin-top: unset;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 820px) {
+    .contact-page .managementteam {
+        margin-bottom: 100px;
+    }
+
+    .testimonial-seven-slider {
+        padding: unset;
+        margin-top: unset;
+    }
+
+    .container-us .about-section .whyus-block {
+        height: 140px;
+    }
+
+    .container-us .about-section .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        top: 100%;
+    }
+
+    .container-us .about-section .custom-slick-control>ul.slick-dots {
+        left: 8.5% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutus-page .page-banner {
+        min-height: 820px;
+    }
+}
+
+@media (max-width: 767px) {
+    .aboutus-page .page-banner {
+        background-image: url('/assets/images/banners/Mobile_BG_About us.png');
+     }
+    
+    .newline::before {
+        content: "\a";
+        white-space: pre;
+    }
+
+    .section-managementteam .title,
+    .section-boardofdirector .title {
+        margin-bottom: 4px;
+    }
+
+    .section-managementteam .content-title,
+    .section-boardofdirector .content-title {
+        margin-top: 13.7px;
+    }
+
+    .about-image-shape::before {
+        display: none;
+    }
+
+    .whyus-mobile-aboutus .mg-b20 {
+        margin-bottom: unset;
+    }
+
+    .about-content ul {
+        margin-bottom: unset;
+    }
+
+    .contact-page .rpb-100 {
+        padding-bottom: 80px;
+    }
+
+    .contact-page .container .section-boardofdirector {
+        margin-top: 94px;
+    }
+
+    .contact-page .container .managementteam .paragraph {
+        margin-top: 16px;
+        margin-bottom: unset;
+    }
+
+    .managementteam .title {
+        margin-bottom: unset;
+    }
+
+    .contact-page small.small-manage,
+    .contact-page small.small-manages {
+        margin-bottom: 16px;
+    }
+
+    .contact-page .about-content h5 {
+        margin-bottom: unset;
+    }
+
+    .contact-page .about-content .content-borderleft.mt-4 {
+        margin-top: 24px !important;
+        margin-bottom: 16px;
+    }
+
+    .contact-page .about-image-shape.rmb-70 {
+        margin-bottom: 24px;
+    }
+
+    .about-image-shape:after {
+        display: none;
+    }
+
+    .contact-page .about-content .section-title {
+        margin-bottom: 24px;
+    }
+
+    .contact-page .section-title .sub-title {
+        margin-bottom: unset;
+    }
+
+    .contact-page small {
+        margin-bottom: unset;
+    }
+
+    .contact-page .about-section .section-title h3 {
+        margin-top: 4px;
+    }
+
+    .contact-page .container.container-us {
+        padding-top: 64px;
+    }
+
+    .page-subtitle {
+        font-size: 16px;
+    }
+
+    .whyus-desktop-aboutus {
+        display: none !important;
+    }
+
+    .pd-lr {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .whyus-mobile-aboutus {
+        /* padding-bottom: 90px; */
+        display: block;
+    }
+
+    .contact-page .container {
+        padding-left: unset;
+        padding-right: unset;
+        padding-bottom: unset;
+    }
+
+    .rpy-100 {
+        padding-top: unset;
+    }
+
+    .pb-90 {
+        padding-bottom: unset;
+    }
+
+    .section-boardofdirector .author-description {
+        overflow-x: clip;
+    }
+
+    .section-boardofdirector .testimonial-seven-slider .testimonial-item .author-description img {
+        width: 240px !important;
+    }
+
+    .testimonial-seven-slider .testimonial-item {
+        width: 300px !important;
+    }
+
+    .testimonial-seven-slider {
+        padding: 0px 112px;
+    }
+
+    .testimonial-seven-slider .slick-dots {
+        width: 100%;
+        left: 0;
+        margin: 0px;
+    }
+
+    .section-managementteam .testimonial-seven-slider .slick-dots,
+    .section-boardofdirector .testimonial-seven-slider .slick-dots {
+        top: 110%;
+    }
+
+    .testimonial-seven-slider .slick-arrow {
+        /* width: 40px;
+        height: 40px;
+        font-size: 18px;
+        line-height: 40px; */
+        display: none !important;
+    }
+
+    .whyus-slider-wrap.testimonial-seven-slider {
+        margin-top: unset !important;
+    }
+
+    .mt-50 {
+        margin-bottom: 64px !important;
+    }
+}
+
+@media (max-width: 688px) {
+    .aboutus-page .page-banner {
+        min-height: 808px;
+    }
+
+    .container-us .about-section .whyus-block {
+        padding: 20px 20px 20px 0px;
+        height: 160px !important;
+    }
+
+    .container-us .about-section .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        top: 160px !important;
+        left: 14% !important;
+    }
+}
+
+@media (max-width: 575px) {
+    .whyus-desktop-aboutus .whyus-block .custom-slick-control>ul.slick-dots {
+        left: 20% !important;
+        top: 100%;
+    }
+}
+
+@media (max-width: 565px) {
+    .testimonial-seven-slider {
+        padding: 0px 112px;
+    }
+
+    .testimonial-seven-slider .slick-arrow.next {
+        right: 10%;
+    }
+
+    .testimonial-seven-slider .slick-arrow.prev {
+        left: 10%;
+    }
+
+    .testimonial-seven-slider .testimonial-item {
+        width: 272px !important;
+    }
+
+    .contact-page .container .managementteam .paragraph {
+        margin-top: 15px;
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width: 515px) {
+    .testimonial-seven-slider {
+        padding: 0px 70px;
+    }
+
+    .testimonial-seven-slider .slick-arrow.next {
+        right: 5%;
+    }
+
+    .testimonial-seven-slider .slick-arrow.prev {
+        left: 5%;
+    }
+
+    .testimonial-seven-slider .slick-dots {
+        width: 70%;
+        margin-left: 55px;
+    }
+}
+
+@media (max-width: 414px) {
+    .section-managementteam .testimonial-seven-slider .slick-dots {
+        margin-left: 65px;
+    }
+
+    .about-vision {
+        margin-top: 64px !important;
+    }
+
+    .container-us .about-section .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        top: 190px !important;
+        left: 35% !important;
+    }
+
+    .container-us .about-section .custom-slick-control>ul.slick-dots {
+        left: 20% !important;
+    }
+
+    .aboutus-page .page-banner {
+        min-height: 675px;
+    }
+
+    .container-us .about-section .whyus-block {
+        height: 190px !important;
+    }
+
+    #whyus-mobile p,
+    #whyus-mobile li {
+        margin-left: unset;
+    }
+
+    .whyus-desktop-aboutus .whyus-block .custom-slick-control>ul.slick-dots {
+        top: 95%;
+    }
+
+    .section-visionandmission.container.mt-100.mt-50 {
+        margin-top: unset;
+    }
+
+    .aboutus-page .about-content .section-title .sub-title {
+        margin-bottom: unset;
+    }
+
+    .aboutus-page .about-content.text-white.pr-70.rpr-0 {
+        margin-top: unset;
+    }
+
+    #whyus-mobile {
+        margin-top: -30px;
+    }
+
+    .section-managementteam .testimonial-seven-slider .slick-dots,
+    .section-boardofdirector .testimonial-seven-slider .slick-dots {
+        top: 110%;
+    }
+
+    .contact-page .container .section-boardofdirector {
+        margin-top: 104px;
+    }
+
+    .contact-page.pb-100.rpy-100 {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 411px) {
+    .aboutus-page .page-banner {
+        min-height: 600px;
+    }
+}
+
+@media (max-width: 420px) {
+    .testimonial-seven-slider .testimonial-item {
+        width: 240px !important;
+    }
+}
+
+@media (max-width: 412px) {
+    .aboutus-page .page-banner {
+        min-height: 630px;
+    }
+}
+
+@media (max-width: 393px) {
+    .container-us .about-section .whyus-block {
+        padding-right: 16px;
+    }
+
+    .about-image-shape::before {
+        display: none;
+    }
+
+    .container-us .about-section .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        top: 200px !important;
+        left: 35% !important;
+    }
+
+    .aboutus-page .about-content.text-white.pr-70.rpr-0 {
+        margin-top: unset;
+    }
+
+    .aboutus-page .page-banner {
+        min-height: 565px;
+    }
+}
+
+@media (max-width: 390px) {
+    .aboutus-page .page-banner {
+        min-height: 620px;
+    }
+}
+
+@media (max-width: 384px) {
+    .aboutus-page .page-banner {
+        min-height: 420px;
+    }
+}
+
+@media (max-width: 375px) {
+    .container-us .about-section .whyus-block {
+        padding: 20px 10px 20px 10px;
+    }
+
+    .container-us .about-section .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        left: 34% !important;
+    }
+
+    .container-us .about-section .whyus-slider-wrap.custom-slick-control>ul.slick-dots {
+        top: 190px !important;
+    }
+
+    .aboutus-page .page-banner {
+        min-height: 590px;
+    }
+
+    .container-us .about-section #whyus-mobile p {
+        margin-left: unset !important;
+    }
+
+    .container-us .about-section .whyus-block {
+        height: 190px !important;
+    }
+
+    .container-us .about-section .whyus-slider-wrap .service-item-six .icon {
+        margin-left: unset !important;
+    }
+
+    .contact-page .managementteam {
+        margin-bottom: 80px;
+    }
+
+    .whyus-desktop-aboutus .whyus-block .custom-slick-control>ul.slick-dots {
+        top: 120%;
+    }
+}
+
+@media (max-width: 320px) {
+    .aboutus-page .page-banner {
+        min-height: 345px;
+    }
+}

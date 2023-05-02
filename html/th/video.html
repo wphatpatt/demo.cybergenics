@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+    <style>
+        body {
+            padding: 20px
+        }
+
+        video {
+            max-width: 50%;
+        }
+
+        .btn {
+            display: block;
+            margin-top: 20px;
+        }
+
+        .ytp-pip-button {
+            display: inline;
+        }
+    </style>
+    <video id="vid" data-yt2html5="https://www.youtube.com/embed/cqnW51UxdY4"></video>
+    <button id="pipButton" class="btn btn-lg btn-primary">Enter Picture-in-Picture mode</button>
+</body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/gh/thelevicole/youtube-to-html5-loader@4.0.1/dist/YouTubeToHtml5.js"></script>
+<script>
+    $(document).ready(function () {
+        new YouTubeToHtml5();
+        $("#pipButton").click(function () {
+            document.getElementById("vid").requestPictureInPicture()
+        })
+    })
+</script>

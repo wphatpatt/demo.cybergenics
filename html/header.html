@@ -1,0 +1,166 @@
+<!--Header-Upper-->
+<div class="header-upper">
+  <div class="container clearfix">
+    <div class="header-inner d-flex align-items-center">
+      <div class="logo-outer">
+        <a class="logo" href="/">
+          <!-- LOGO -->
+          <img src="/assets/images/cyber/cybergenic_logo.png" alt>
+        </a>
+      </div>
+
+      <div class="nav-outer clearfix d-flex align-items-center">
+        <!-- Main Menu -->
+        <nav class="main-menu navbar-expand-lg mx-lg-auto">
+          <div class="navbar-header">
+            <!-- <div class="mobile-logo py-15">
+                  <a href="index.html">
+                    <img src="/assets/images/logos/logo-black.png" alt="Logo" title="Logo">
+                  </a>
+                </div> -->
+            <div></div>
+            <!-- Toggle Button -->
+            <div class="d-flex align-items-center">
+              <div class="lang-selector mr-20">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-link text-white btn-transparent dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN</button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" onclick="changeLanguage('en')">EN</a>
+                    <a class="dropdown-item" onclick="changeLanguage('th')">TH</a>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+          </div>
+          <div class="navbar-collapse collapse clearfix navbar-collapse-header">
+            <ul class="navigation clearfix">
+              <li>
+                <a href="aboutus.html">About Us</a>
+              </li>
+              <li class="dropdown">
+                <a href="#">Solutions</a>
+                <ul>
+                  <li><a href="infra-security.html">Infrastructure Security Protection</a></li>
+                  <li><a href="industrial-control.html">Industrial Control System Security</a>
+                  </li>
+                  <li><a href="cloud-security.html">Cloud Security Protection</a></li>
+                  <li><a href="endpoint-protection.html">Endpoint Protection</a></li>
+                  <li><a href="identity-security.html">Identity Security Management</a></li>
+                  <li><a href="data-security.html">Data Security</a></li>
+                  <li><a href="security-event.html">Security Event Management and Monitoring</a>
+                  </li>
+                  <li><a href="managed-security.html">Managed Security Services</a></li>
+                </ul>
+              </li>
+              <!-- <li>
+                <a data-attr-t data-attr-t-interpolate href-t="{{links.customersuccess}}">Customer Success</a>
+              </li> -->
+              <li>
+                <a onclick="navigaeToNews()">News & Insights</a>
+              </li>
+              <li class="show-mobile">
+                <a href="contact.html">Contact Us</a>
+              </li>
+              <li class="show-mobile">
+                <div class="contact-btn my-20">
+
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-link text-white btn-transparent dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN</button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" onclick="changeLanguage('en')">EN</a>
+                      <a class="dropdown-item" onclick="changeLanguage('Th')">TH</a>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </nav>
+        <!-- Main Menu End-->
+        <div class="lang-selector mr-40 hidden-mobile">
+          <div class="btn-group">
+            <button type="button" class="btn btn-link text-white btn-transparent dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">EN</button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" onclick="changeLanguage('en')">EN</a>
+              <a class="dropdown-item" onclick="changeLanguage('Th')">TH</a>
+            </div>
+          </div>
+        </div>
+        <div class="contact-btn hidden-mobile">
+          <a class="btn btn-primary pr-20 pl-20 btn-contact-desktop" href="contact.html">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* header */
+  #main-header .main-menu .navbar-collapse li a {
+    font-weight: 400;
+  }
+
+  #main-header button.btn.btn-link.text-white.btn-transparent.dropdown-toggle,
+  #main-header .btn.btn-primary.pr-20.pl-20.btn-contact-desktop {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  #main-header .btn.btn-primary.pr-20.pl-20.btn-contact-desktop:hover {
+    color: white;
+    background-color: #cb2117 !important;
+    border-color: rgba(255, 0, 0, 0%) !important;
+  }
+
+  #main-header .btn.btn-primary.pr-20.pl-20.btn-contact-desktop:active {
+    color: white;
+    background-color: #9E1A12 !important;
+    border-color: rgba(255, 0, 0, 0%) !important;
+  }
+
+  .main-menu ul li:nth-child(6) {
+    border: unset;
+    padding-left: unset;
+  }
+
+  /* end header */
+  @media (max-width: 991px) {
+    .navbar-header .lang-selector {
+      display: none;
+    }
+
+    #main-header .contact-btn .btn {
+      padding: 10px 10px !important;
+    }
+
+    #main-header .mb-20,
+    .my-20 {
+      margin-bottom: unset;
+    }
+
+    #main-header .mt-20,
+    .my-20 {
+      /* margin-top: unset; */
+    }
+  }
+</style>
+<script>
+  function navigaeToNews() {
+    window.location.href = `/?news`;
+
+  }
+
+  $(document).click(function (event) {
+    if (!$(event.target).is('.navbar-collapse *')) {
+      $('.navbar-collapse').collapse('hide');
+    }
+  });
+</script>
+<!--End Header Upper-->

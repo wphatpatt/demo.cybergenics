@@ -1,0 +1,369 @@
+{
+  "lang": {
+    "current": "en",
+    "name": "EN"
+  },
+  "common": {
+    "title": "CyberGenics",
+    "aboutus": "About Us",
+    "solution": "Solutions",
+    "customersuccess": "Customer Success",
+    "newsinsights": "News & Insights",
+    "learnmore": "Learn More"
+  },
+  "links": {
+    "home": "/",
+    "aboutus": "aboutus.html",
+    "aboutus_infra": "aboutus.html#isp",
+    "solution": "#",
+    "customersuccess": "customer-success.html",
+    "newsinsights": "/news-insights",
+    "partners": "/partners",
+    "contactus": "contact.html"
+  },
+  "home": {
+    "circle1": "90% of our staff<wbr> are technical",
+    "circle2": "More than 30+ years <wbr> in cybersecurity",
+    "circle3": "We handle 500+ <wbr>cybersecurity projects",
+    "whatwedo": {
+      "one": "We are your thought partner. Based on your business requirements, we advice and co-create comprehensive and suitable cybersecurity solutions",
+      "two": "Our mission is to deliver cybersecurity solutions and pick the right technology for your businesses. We combine our team’s diverse experiences to serve various business groups.",
+      "three": "At CyberGenics, we comply with international standards such as NIST Cybersecurity Framework, ISO 27001"
+    },
+    "aboutus": {
+      "header": "About Us",
+      "subtitle": "About Us",
+      "title": "The leading cybersecurity consultant and  <span class=\"highlight-text h3\">comprehensive cybersecurity solution provider.</span>",
+      "description": "Our experts are proactive and adaptable. We can quickly provide comprehensive cybersecurity measures to match our motto “Cybersecurity in every DNA.”",
+      "check1": "Experienced cybersecurity experts",
+      "check2": "Proactive mindset",
+      "check3": "Speedy services",
+      "check4": "Premium product offerings",
+      "btn-learnmore": "Learn More"
+    },
+    "whyus": {
+      "one": "As a professional leader, we have gained expertise and experiences from developing cybersecurity solutions & systems for various organizations and industries for more than 33 years.",
+      "two": "We have proactive mindset and adaptable plan to match constant changes and monitor every threats in cyberspace.",
+      "three": "We strive and reach the goals with Partner Mindset Team. Give your business the most efficient results.",
+      "four": "We are the cybersecurity expert team. Ready for all-scale service delivery. Commit to making SLA reaches 85%+",
+      "header": "The Value of Trust <span class=\"highlight-text h3\">“Cybersecurity in every DNA.”</span>"
+    },
+    "ourservice": {
+      "title": "We secure the world from <span class=\"text-red text-24\">cyber threats</span>",
+      "subtitle": "Our technologies and experienced staff help strengthen your cybersecurity ecosystem. <br> We can protect you from any cyber threats.​"
+    },
+    "footer": "Trusted by leading companies in Thailand",
+    "ournews": "​CyberGenics’s Idea Insights, sample strategic plans, and case studies."
+  },
+  "solutionsChild": {
+    "InfrastructureSecurityProtection": "Infrastructure Security Protection",
+    "IndustrialControlSystemSecurity": "Industrial Control System Security",
+    "CloudSecurityProtection": "Cloud Security Protection",
+    "EndpointProtection": "Endpoint Protection",
+    "IdentitySecurityManagement": "Identity Security Management",
+    "DataSecurity": "Data Security",
+    "SecurityEventManagementandMonitoring": "Security Event Management and Monitoring",
+    "ManagedSecurityServices": "Managed Security Services"
+  },
+  "footer": {
+    "solutions": "Solutions",
+    "about": "About",
+    "findus": "Find Us",
+    "aboutus": "About Us",
+    "partners": "Partners",
+    "contactus": "Contact Us"
+  },
+  "services_page": {
+    "ss_title": "Our <span class=\"text-red text-24\">Services</span>",
+    "ss_sub": "Tech Solutions",
+    "ss_pc_subtitle": "Our Partner",
+    "ss_pc_title": "<span class=\"text-red text-24\">Partner</span> Solutions",
+    "ss_pc_desc": "Trusted by leading companies in Thailand",
+    "ss_cc_subtitle": "Our Client",
+    "ss_cc_title": "Our Client",
+    "ss_cc_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  "services_card": [
+    {
+      "img": "/assets/images/solutionImage/Solution 1_ Infrastructure Security Protection_2.jpg",
+      "link": "infra-security.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 2_ Industrial Control System Security_2.jpg",
+      "link": "industrial-control.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 3_ Cloud Security Protection_2.jpg",
+      "link": "cloud-security.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 4_ Endpoint Protection.png",
+      "link": "endpoint-protection.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 5_ Identity Security Management_2.jpg",
+      "link": "identity-security.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 6_ Data Security_2.jpg",
+      "link": "data-security.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 7_ Security Event Management and Monitoring_2.jpg",
+      "link": "security-event.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 8_ Managed Security Services_2.jpg",
+      "link": "managed-security.html"
+    }
+  ],
+  "services": [
+    {
+      "type": "Infrastructure Security Protection",
+      "banner": "Infrastructure <span class=\"newline-dis h2\">Security Protection</span>",
+      "scope": "Combine protection and detection technologies to strengthen your IT infrastructure.<br> Safeguard your organization for advanced threats and unusual behaviors.",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Network Perimeter Security",
+          "subtitle": "Implement cybersecurity technologies to divide, detect, and eliminate abnormal behaviors."
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Internet Gateway Security",
+          "subtitle": "Monitor organization’s incoming and outgoing Internet traffic to protect against cyber threats."
+        }
+      ]
+    },
+    {
+      "type": "Industrial Control System Security",
+      "scope": "Improve visibility and protects your ICS infrastructure against attacks with zero disruption.",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "IoT/OT Visibility",
+          "subtitle": "Expand visibility into ICS infrastructure to discover all assets.<br> Detect cyber threats with ICS-specific knowledge."
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "ICS Protection",
+          "subtitle": "Implement the appropriate protection technology for the ICS infrastructure without affecting the entire system."
+        }
+      ]
+    },
+    {
+      "type": "Cloud Security Protection",
+      "scope": "Protect cloud environments from cybersecurity threats. Give administrators complete visibility and abilities to assign access controls for safe connections from anywhere at any time.",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Cloud Infrastructure Protection",
+          "subtitle": "Give your cloud the same security as on-premises infrastructure."
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Secure Service Edge",
+          "subtitle": "Protect your data and network by preventing unauthorized access to the Internet, cloud, and personal apps. Give control to the right users."
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Cloud Native Application Protection",
+          "subtitle": "Provides security and compliance audits for cloud applications throughout their lifecycle from build to deployment."
+        }
+      ]
+    },
+    {
+      "type": "Endpoint Protection",
+      "scope": "Secure your endpoints. Manage device access to enterprise asset. Continuously detect and eliminate abnormal behaviors.",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Endpoint Protection",
+          "subtitle": "Safeguard threats against your endpoints with technologies that integrate antivirus, device and application control, intrusion prevention, and data protection."
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Endpoint Detection and Response",
+          "subtitle": "Detect and investigate anomalous behaviors to identify and mitigate threats and their impact."
+        }
+      ]
+    },
+    {
+      "type": "Identity Security Management",
+      "banner": "Identity <span class=\"newline-dis h2\">Security Management</span>",
+      "scope": "Identify and ensure users get the right level of access to enterprise resources.",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Identity and Access Management",
+          "subtitle": "Identify and assign the right permissions to users from their first day to the last."
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Privileged Acccess Management",
+          "subtitle": "Protect against privileged identity theft and mitigate its impact. Generate audit reports for privileged user activities."
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Multi-Factor Authentication",
+          "subtitle": "Identify users more accurately using information from smart devices, security tokens or one-time passwords."
+        }
+      ]
+    },
+    {
+      "type": "Data Security",
+      "scope": "Protect valuable digital asset from unauthorized access. Continuously monitor data usage to prevent cyber theft",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Data Protection ",
+          "subtitle": "Protect valuable data stored anywhere from cyber attacks and data theft."
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Data Breach Detection",
+          "subtitle": "Monitor and protect sensitive information from cyber theft no matter how or where it travels."
+        }, {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Database Activity Monitoring",
+          "subtitle": "Real-time monitoring and analysis of database activities to provide an overview for investigating and reporting violations and abnormal behaviors."
+        }
+      ]
+    },
+    {
+      "type": "Security Event Management and Monitoring",
+      "scope": "Connect various detection technologies to analyze and respond to cybersecurity incidents in a timely manner",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Security Information and Event Management",
+          "subtitle": "Collect information from any device. Recognize potential security incidents and alert investigators."
+        }, {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Security Orchestration, Automation and Response",
+          "subtitle": "Build digital workflows to support security operations center (SOC) in implementing security controls. Quickly verify and respond to potential security incidents."
+        },  {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "User & Event Behavior Analytics",
+          "subtitle": "Detect and analyze abnormal user behavior patterns to prevent potential threats."
+        },  {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Breach and Attack Simulation",
+          "subtitle": "Continually test to ensure the strength of your security controls."
+        }
+      ]
+    },
+    {
+      "type": "Managed Security Services",
+      "scope": "End-to-end cybersecurity solutions. Our professionals monitor threats and incidents via incident response framework.",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Managed Threat Detection",
+          "subtitle": "Managed Threat Detection is our SOC as a Service. Cloud Native SIEM and integrated Threat Intelligence focus on giving customers highest level of security."
+        },  {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Managed Detection and Response",
+          "subtitle": "Managed Detection and Response is a service for EDR monitoring solutions. We contain threats and provide incident reports."
+        },  {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Vulnerability Assessment",
+          "subtitle": "Vulnerability assessment service to help you verify vulnerabilities and implement remediation plans."
+        }
+      ]
+    }
+  ],
+  "about": {
+    "banner-headder": {
+      "subtitle" : "CyberGenics is not just a cybersecurity company. Cybersecurity is imprinted in our DNA. <br><br> Our team motto is <b><span class=newline>“Cybersecurity in every DNA.”</span></b>​"
+    },
+    "OurVisionandMission": "Our Vision and Mission",
+    "ProvideVisionandMission": "Provide Advanced Security <span class=\"text-red h3\">for Advanced Threats</span>",
+    "vision": {
+      "title": "Vision",
+      "description": "Enable business growth and transformation with end-to-end world-class cybersecurity standards​"
+    },
+    "mission": {
+      "title": "Mission",
+      "description": "Keep business world more secure through our holistic cybersecurity services provided by people with security in every DNA."
+    },
+    "managementteam": {
+      "title": "<span class=\"text-red h3\">Management Team</span>",
+      "subtitle": "CyberGenics Organization",
+      "description": "CyberGenics’s team moves forwards relentlessly. We have cybersecurity experts who have worked in the industry for over 30 years. Ready to fulfill your business needs.​",
+      "mm1": "Sutee Assawasoontarangkoon",
+      "ro1": "Director",
+      "mm2": "Tachapon Udomakarachoke",
+      "ro2": "Chief Sales Officer",
+      "mm3": "Thananunt Maneekul",
+      "ro3": "Chief Operating Officer",
+      "mm4": "Apirom Kitisophakul",
+      "ro4": "Solution Integration & <br>Project Management Manager",
+      "mm5": "Alongkorn Hongsawat",
+      "ro5": "Security Presales Manager",
+      "mm6": "Nitchakarn Niltrakarnkul",
+      "ro6": "Partner Engagement Manager"
+    },
+    "boardofdirector": {
+      "title": "<span class=\"text-red h3\">Board of Director</span>",
+      "subtitle": "CyberGenics Organization",
+      "description": "CyberGenics’s team moves forwards relentlessly. We have cybersecurity experts who have worked in the industry for over 30 years. Ready to fulfill your business needs.​",
+      "mm1": "Dr. Chaiyuth Chunnahacha",
+      "ro1": "Chairman",
+      "mm2": "Mr. U-Krit Wongsarawit",
+      "ro2": "Director",
+      "mm3": "Nuannit Hongprapawong",
+      "ro3": "Director",
+      "mm4": "Kitayanee Asavanich",
+      "ro4": "Director",
+      "mm5": "Sutee Assawasoontarangkoon",
+      "ro5": "Director"
+    }
+  },
+  "customer": {
+    "title": "Customer Success",
+    "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    "highlight": {
+      "title": "Identify suspicious transactions from ransomware within 3 days",
+      "desc": "Blendata’s only needs 3 days to comb through 6 months of big data to identify suspicious transactions. The quick response prevents system shutdown which could lead to tremendous loss.",
+      "link": "success-case-1.html",
+      "content-title": "Fast and effective customer service is the key to retaining the customer base",
+      "content-desc": "As one of Thailand’s leading mobile phone operators with more than 40 million customers countrywide, fast and effective customer service is the key to retaining the customer base. It relies on various types of data such as personal data and usage logs, through numerous channels and devices to analyse and fix issues. The data size constantly grows larger as mobile users always update and change their information until the storage becomes huge and staggering in different departments. It takes weeks to collect information and investigate a customer complaint affecting service quality."
+    },
+    "case1": {
+      "subtitle": "Data Warehouse",
+      "title": "Search 10 years of history within seconds to efficiently support your business",
+      "desc": "Blendata’s overcomes the restriction of conventional big data storage with a new solution that allows organizations to store and search 10 years of data within seconds, superseding traditional data archiving to support your business and reduces TCO by half.",
+      "link": "success-case-2.html",
+      "content-title": "Fast and effective customer service is the key to retaining the customer base",
+      "content-desc": "As one of Thailand’s leading mobile phone operators with more than 40 million customers countrywide, fast and effective customer service is the key to retaining the customer base. It relies on various types of data such as personal data and usage logs, through numerous channels and devices to analyse and fix issues. The data size constantly grows larger as mobile users always update and change their information until the storage becomes huge and staggering in different departments. It takes weeks to collect information and investigate a customer complaint affecting service quality."
+    },
+    "case2": {
+      "subtitle": "Data Archiving",
+      "title": "Impress customers by reducing big data management time from weeks to seconds",
+      "desc": "Create an operational data warehouse to reduce customer complaint handling time from 2 weeks to seconds and quickly deliver a solution to the customer to ensure the best experience and satisfaction.",
+      "link": "success-case-3.html",
+      "content-title": "Fast and effective customer service is the key to retaining the customer base",
+      "content-desc": "As one of Thailand’s leading mobile phone operators with more than 40 million customers countrywide, fast and effective customer service is the key to retaining the customer base. It relies on various types of data such as personal data and usage logs, through numerous channels and devices to analyse and fix issues. The data size constantly grows larger as mobile users always update and change their information until the storage becomes huge and staggering in different departments. It takes weeks to collect information and investigate a customer complaint affecting service quality."
+    },
+    "case3": {
+      "subtitle": "Cybersecurity Data Lake",
+      "title": "Conduct forensics within seconds with enhanced cybersecurity for banks",
+      "desc": "In the past, security analysts couldn’t conduct forensics on big data. With Blendata’s centralized data storage, security data analysts can conduct forensics and fix issues instantly as well as analyse data independently to create threat patterns to protect customers’ data actively.",
+      "link": "success-case-4.html",
+      "content-title": "Fast and effective customer service is the key to retaining the customer base",
+      "content-desc": "As one of Thailand’s leading mobile phone operators with more than 40 million customers countrywide, fast and effective customer service is the key to retaining the customer base. It relies on various types of data such as personal data and usage logs, through numerous channels and devices to analyse and fix issues. The data size constantly grows larger as mobile users always update and change their information until the storage becomes huge and staggering in different departments. It takes weeks to collect information and investigate a customer complaint affecting service quality."
+    }
+  },
+  "contact": {
+    "header": "Contact Us",
+    "desc": "CyberGenic’s experts are ready to provide consultant and assistance on every cybersecurity need.​",
+    "get-in-touch": {
+      "header": "Get In Touch",
+      "address": "Address",
+      "address-detail": "127/22 Panjathani Tower, <br> 17th Floor, Nonsi Road, Chong Nonsi,<br> Yannawa, Bangkok 10120 Thailand <span class=newline> Company Registration No. 0105565133661</span>",
+      "callus": "Call Us",
+      "description": "If you are interested in CyberGenics’s cybersecurity solutions, please reach us via these channels.​"
+    }
+  }
+}
