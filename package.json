@@ -5,8 +5,8 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "predeploy": "npm install && npm run build",
-    "deploy": "sh frontend.sh",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "static-i18n -o html -l en -i en -i th www",
     "dev": "node mini_server.js",
     "serve": "npx http-server -p 5500 ./html",
