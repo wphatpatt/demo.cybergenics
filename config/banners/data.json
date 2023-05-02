@@ -1,6 +1,6 @@
 [
   {
-    "imageSrc": "<img src=/config/banners/images/home_01.png>",
+    "imageSrc": "<img src=./config/banners/images/home_01.png>",
     "en": {
       "subtitle": "We offer the best protection",
       "title": "CyberGenics",

@@ -38,23 +38,23 @@
 }
 
 .feature-item-three .icon.wedeliver img {
-  content: url('./assets/images/icon-home/How we deliver.png');
+  content: url('../images/icon-home/How we deliver.png');
 }
 
 .feature-item-three .icon.ourstandard img {
-  content: url('./assets/images/icon-home/Our Standard.png');
+  content: url('../images/icon-home/Our Standard.png');
 }
 
 .what-we-do .feature-item-three:hover .icon.wedo img {
-  content: url('./assets/images/icon-home/What_we_do_red.png');
+  content: url('../images/icon-home/What_we_do_red.png');
 }
 
 .what-we-do .feature-item-three:hover .icon.wedeliver img {
-  content: url('./assets/images/icon-home/How_we_deliver_red.png');
+  content: url('../images/icon-home/How_we_deliver_red.png');
 }
 
 .what-we-do .feature-item-three:hover .icon.ourstandard img {
-  content: url('./assets/images/icon-home/Our_Standard_red.png');
+  content: url('../images/icon-home/Our_Standard_red.png');
 }
 
 .what-we-do .feature-item-three:hover .text-red-desktop {
@@ -617,7 +617,7 @@ a.theme-btn.style-nine.hover-two {
   }
 
   .main-slider-wrap .image img {
-    content: url('./assets/images/banners/Ipad_BG_Home.png');
+    content: url('../images/banners/Ipad_BG_Home.png');
   }
 
   .graph-desktop,
@@ -1607,7 +1607,7 @@ a.theme-btn.style-nine.hover-two {
   }
 
   .main-slider-wrap .image img {
-    content: url('./assets/images/banners/Mobile_BG_Home.png');
+    content: url('../images/banners/Mobile_BG_Home.png');
   }
 
   .whyus-mobile .about-content .mg-tb-20 {

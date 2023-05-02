@@ -1,4 +1,4 @@
-let bannerConfigUrl = "/config/banners/data.json";
+let bannerConfigUrl = "./config/banners/data.json";
 
 jQuery.getJSON(bannerConfigUrl, function (data) {
   // check with current lang
@@ -50,7 +50,7 @@ jQuery.getJSON(bannerConfigUrl, function (data) {
   }
 });
 
-let newsConfigUrl = "/config/news/data.json";
+let newsConfigUrl = "./config/news/data.json";
 jQuery.getJSON(newsConfigUrl, function (data) {
   // check with current lang
   let items = [];
@@ -131,7 +131,7 @@ jQuery.getJSON(newsConfigUrl, function (data) {
 });
 
 // why us
-let whyusConfigUrl = "/config/whyus/data.json";
+let whyusConfigUrl = "./config/whyus/data.json";
 jQuery.getJSON(whyusConfigUrl, function (data) {
   // check with current lang
   let items = [];
@@ -192,7 +192,7 @@ jQuery.getJSON(whyusConfigUrl, function (data) {
 });
 
 // feature
-let featureConfigUrl = "/config/whatwedo/data.json";
+let featureConfigUrl = "./config/whatwedo/data.json";
 jQuery.getJSON(featureConfigUrl, function (data) {
   // check with current lang
   let items = [];

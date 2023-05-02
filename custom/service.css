@@ -402,7 +402,7 @@
   height: 0;
   /* border: 6px solid transparent; */
   /* border-color: #fff transparent transparent transparent; */
-  /* background: url("/.assets/images/home/arrow-down.png") no-repeat right #ffffff; */
+  /* background: url("../images/home/arrow-down.png") no-repeat right #ffffff; */
   border: solid white;
   border-width: 0 2px 2px 0;
   transform: rotate(45deg);
@@ -416,7 +416,7 @@
 .list-group-mobile .select-selected-service.select-arrow-active-service:after {
   /* border-color: transparent transparent #fff transparent; */
   top: 12px;
-  /* background: url("/.assets/images/home/arrow-up.png") no-repeat right #ffffff; */
+  /* background: url("../images/home/arrow-up.png") no-repeat right #ffffff; */
   border: solid white;
   border-width: 0 2px 2px 0;
   display: inline-block;
