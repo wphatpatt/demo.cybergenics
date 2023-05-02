@@ -1,0 +1,369 @@
+{
+  "lang": {
+    "current": "th",
+    "name": "TH"
+  },
+  "common": {
+    "title": "CyberGenics",
+    "aboutus": "About Us",
+    "solution": "Solutions",
+    "customersuccess": "Customer Success",
+    "newsinsights": "News & Insights",
+    "learnmore": "Learn More"
+  },
+  "links": {
+    "home": "/th/",
+    "aboutus": "/th/aboutus.html",
+    "aboutus_infra": "/th/aboutus.html#isp",
+    "solution": "/th/#",
+    "customersuccess": "/th/customer-success.html",
+    "newsinsights": "/th/news-insights",
+    "partners": "/th/partners",
+    "contactus": "/th/contact.html"
+  },
+  "home": {
+    "circle1": "90% ของทีมงานเป็นผู้มีความสามารถเชิงเทคนิค",
+    "circle2": "มีประสบการณ์กว่า 30 ปี ด้านความปลอดภัยทางไซเบอร์",
+    "circle3": "ผ่านการดำเนินงานมามากกว่า 500+ โครงการ",
+    "whatwedo": {
+      "one": "ร่วมเป็นพาร์ทเนอร์ความคิด จากโจทย์ทางธุรกิจของลูกค้า แนะนำ พร้อมวางแผน ร่วมสร้างระบบ Cybersecurity Solution ที่ครบวงจร และเหมาะสมให้กับธุรกิจของคุณ",
+      "two": "ด้วยแนวความคิดที่พร้อมส่งมอบ Cybersecurity Solution และการคัดสรรเทคโนโลยีที่เหมาะสมให้กับธุรกิจของคุณ ผสานกับประสบการณ์ที่หลากหลายของทีมงาน ให้กับกลุ่มธุรกิจต่างๆ",
+      "three": "เราปฏิบัติตามมาตรฐานสากล NIST Cybersecurity Framework, ISO 27001"
+    },
+    "aboutus": {
+      "header": "เกี่ยวกับเรา",
+      "subtitle": "About Us",
+      "title": "ผู้นำด้านการให้คำปรึกษาและให้บริการ <span class=\"highlight-text h3\">Cybersecurity Solution แบบครบวงจร</span>",
+      "description": "มาพร้อมกับทีมงานคนรุ่นใหม่ ที่ก้าวทันความผันผวนของการเปลี่ยนแปลงของโลก โดยมีหลักการคิดเชิงรุก พร้อมวางแผน Solution ต่างๆ อย่างมีประสิทธิภาพ ต่อยอดด้านความปลอดภัยอย่างครบวงจร ภายใต้แนวความคิดในการทำงาน “Cybersecurity in every DNA.”",
+      "check1": "ความเชี่ยวชาญและประสบการณ์ด้าน cybersecurity",
+      "check2": "แนวคิดการปฏิบัติงานเชิงรุก",
+      "check3": "การบริการที่รวดเร็ว",
+      "check4": "ผลิตภัณฑ์ระดับโลก",
+      "btn-learnmore": "เรียนรู้เพิ่มเติม"
+    },    
+    "whyus": {
+      "one": "เราดำเนินงานด้วยประสบการณ์ และความเชี่ยวชาญเฉพาะมามากกว่า 33 ปี ในการพัฒนาระบบ Cybersecurity ให้กับองค์กรชั้นนำ",
+      "two": "เราทำงานเชิงรุก พร้อมปรับแผนดำเนินงานให้สอดคล้องกับสถานการณ์โลกตลอดเวลา เฝ้าระวังทุกความเสี่ยงในโลกไซเบอร์",
+      "three": "เรามุ่งมั่น และบรรลุเป้าหมายด้วย Partner Mindset Team <br>เพื่อให้เกิดผลลัพธ์ที่สำเร็จสูงสุดแก่ธุรกิจของคุณ",
+      "four": "เราคือ ทีมผู้ชำนาญการด้านความปลอดภัยด้านไซเบอร์ <br>พร้อมสำหรับ All-Scale Service Delivery โดยยึดถือข้อตกลงด้านบริการร่วมกับลูกค้า SLA 85%+",
+      "header": "แนวทางการทำงานของเรา <span class=\"highlight-text h3\">“Cybersecurity in every DNA.”</span>"
+    },
+    "ourservice": {
+      "title": "เราปกป้องโลกของคุณ<br><span class=\"text-red text-24\">จากภัยคุกคามทางไซเบอร์</span>​",
+      "subtitle": "​ช่วยเสริมความแข็งแกร่งให้กับ Ecosystem ด้าน Cybersecurity Solution ของคุณ เพื่อป้องกันข้อมูลระบบ <span class=newline-dis>และองค์กรของคุณจากภัยคุกคามทางไซเบอร์ที่เกิดขึ้นได้ตลอดเวลา​</span>​"
+    },
+    "footer": "เราเป็น Partner กับ Worldwide Technology brand บริษัทชั้นนำทั่วโลก",
+    "ournews": "CyberGenics บอกเล่าแนวความคิด ข่าวสารที่น่าสนใจ ตัวอย่างกลยุทธ์ และกรณีศึกษาต่างๆ"
+  },
+  "solutionsChild": {
+    "InfrastructureSecurityProtection": "Infrastructure Security Protection",
+    "IndustrialControlSystemSecurity": "Industrial Control System Security",
+    "CloudSecurityProtection": "Cloud Security Protection",
+    "EndpointProtection": "Endpoint Protection",
+    "IdentitySecurityManagement": "Identity Security Management",
+    "DataSecurity": "Data Security",
+    "SecurityEventManagementandMonitoring": "Security Event Management and Monitoring",
+    "ManagedSecurityServices": "Managed Security Services"
+  },
+  "footer": {
+    "solutions": "Solutions",
+    "about": "About",
+    "findus": "Find Us",
+    "aboutus": "About Us",
+    "partners": "Partners",
+    "contactus": "Contact Us"
+  },
+  "services_page": {
+    "ss_title": "Our <span class=\"text-red text-24\">service</span>",
+    "ss_sub": "Tech Solutions",
+    "ss_pc_subtitle": "Our Partner",
+    "ss_pc_title": "<span class=\"text-red text-24\">Partner</span> Solutions",
+    "ss_pc_desc": "เราเป็น Partner กับ Worldwide Technology brand บริษัทชั้นนำทั่วโลก​",
+    "ss_cc_subtitle": "Our Client",
+    "ss_cc_title": "Our Client",
+    "ss_cc_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,"
+  },
+  "services_card": [
+    {
+      "img": "/assets/images/solutionImage/Solution 1_ Infrastructure Security Protection_2.jpg",
+      "link": "infra-security.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 2_ Industrial Control System Security_2.jpg",
+      "link": "industrial-control.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 3_ Cloud Security Protection_2.jpg",
+      "link": "cloud-security.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 4_ Endpoint Protection.png",
+      "link": "endpoint-protection.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 5_ Identity Security Management_2.jpg",
+      "link": "identity-security.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 6_ Data Security_2.jpg",
+      "link": "data-security.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 7_ Security Event Management and Monitoring_2.jpg",
+      "link": "security-event.html"
+    },
+    {
+      "img": "/assets/images/solutionImage/Solution 8_ Managed Security Services_2.jpg",
+      "link": "managed-security.html"
+    }
+  ],
+  "services": [
+    {
+      "type": "Infrastructure Security Protection",
+      "banner": "Infrastructure <span class=\"newline-dis h2\">Security Protection</span>",
+      "scope": "เพิ่มความปลอดภัยให้กับ IT Infrastructure ด้วยเทคโนโลยีในการ Protect และ Detect เพื่อตอบโต้ Advanced Threat ในปัจจุบัน และรับมือกับพฤติกรรมที่ผิดปกติต่างๆ ในองค์กร",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Network Perimeter Security",
+          "subtitle": "ใช้เทคโนโลยีความปลอดภัยทางไซเบอร์เพื่อควบคุม คัดแยก และตรวจสอบระบบเครือข่ายอย่างต่อเนื่อง เพื่อตรวจจับ และจัดการกับพฤติกรรมผิดปกติภายในระบบเครือข่าย"
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Internet Gateway Security",
+          "subtitle": "เพิ่มความปลอดภัยให้กับจุดเชื่อมต่ออินเทอร์เน็ต ทั้งขาเข้า และขาออก เพื่อให้สร้างความปลอดภัยให้องค์กรจากภัยคุกคามทางไซเบอร์"
+        }
+      ]
+    },
+    {
+      "type": "Industrial Control System Security",
+      "scope": "เสริม Visibility ให้กับ ICS Infrastructure เพื่อกำหนดเทคโนโลยีที่เหมาะสมในการป้องกันการโจมตี โดยไม่สร้างผลกระทบต่อระบบการทำงาน",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "IoT/OT Visibility",
+          "subtitle": "ขยายขอบเขตการมองเห็นไปในโครงสร้างพื้นฐาน ICS เพื่อระบุสินทรัพย์ทั้งหมด และตรวจจับภัยคุกคามทางไซเบอร์ด้วยความรู้เฉพาะทาง"
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "ICS Protection",
+          "subtitle": "กำหนดเทคโนโลยีการป้องกันที่เหมาะสม ทำให้สามารถป้องกันโครงสร้างพื้นฐาน ICS ได้โดยไม่ส่งผลกระทบต่อการทำงานภาพรวมของระบบ"
+        }
+      ]
+    },
+    {
+      "type": "Cloud Security Protection",
+      "scope": "เพิ่มการมองเห็นอย่างครอบคลุม และกำหนดการเข้าถึงที่ถูกต้อง เหมาะสม เพื่อปกป้อง Cloud Environment ทุกประเภทจากภัยคุกคามทางไซเบอร์",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Cloud Infrastructure Protection",
+          "subtitle": "เทคโนโลยีความปลอดภัยทางไซเบอร์ที่ขยับขึ้นไปปกป้องโครงสร้างพื้นฐานในระบบ<br>คลาวด์ โดยสามารถรักษามาตรฐานความปลอดภัยในรูปแบบเดียวกันทั้งองค์กร"
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Secure Service Edge",
+          "subtitle": "ขยายการป้องกันให้กับผู้ใช้งานในการเชื่อมต่ออินเตอร์เน็ต การใช้บริการต่างๆ ในคลาวด์ หรือ แอปพลิเคชัน ให้มีความปลอดภัย ไม่ว่าการเชื่อมต่อนั้นจะมาจากภายใน หรือ ภายนอกองค์กรก็ตาม"
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Cloud Native Application Protection",
+          "subtitle": "ปกป้องคลาวด์แอปพลิเคชันจากการถูกโจมตี และตรวจสอบเพื่อความมั่นใจว่าระบบงานปฏิบัติตามข้อกำหนดทางด้านความมั่นคงปลอดภัยอย่างต่อเนื่อง"
+        }
+      ]
+    },
+    {
+      "type": "Endpoint Protection",
+      "scope": "เสริมการป้องกันให้อุปกรณ์ปลายทาง เพื่อให้มั่นใจว่าผู้ใช้งานสามารถเข้าถึงข้อมูลได้อย่างปลอดภัย จากอุปกรณ์ที่ปฏิบัติตามข้อกำหนดขององค์กร",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Endpoint Protection",
+          "subtitle": "รวมเทคโนโลยีการป้องกัน เช่น Anti-Virus, Device Control, Application control, Data Protection ไว้ใน agent เดียว เพื่อตรวจจับ และป้องกันภัยคุกคาม สำหรับอุปกรณ์ปลายทางทุกประเภท"
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Endpoint Detection and Response",
+          "subtitle": "ตรวจสอบการใช้งานที่อุปกรณ์ปลายทางต่อเนื่อง, ตรวจจับพฤติกรรมผิดปกติ และกำหนดวิธีการแก้ไขอย่างรวดเร็ว เพื่อลดความเสียหายที่เกิดจากจาก Zero day malware หรือ Advanced Threat"
+        }
+      ]
+    },
+    {
+      "type": "Identity Security Management",
+      "banner": "Identity <span class=\"newline-dis h2\">Security Management</span>",
+      "scope": "ระบุตัวตน และกำหนดสิทธิการเข้าถึงของผู้ใช้งานให้ถูกต้อง โดยเฉพาะอย่างยิ่งสำหรับผู้ใช้งานที่มีสิทธิสูง เพื่อปกป้องทรัพยากรขององค์กรจากการสร้างความเสียหายโดยตั้งใจ และไม่ตั้งใจ",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Identity and Access Management",
+          "subtitle": "ระบุตัวตน และกำหนดสิทธิการเข้าถึงส่วนงานต่างๆ ของผู้ใช้งานอย่างเหมาะสม และถูกต้อง ตลอดระยะเวลาการทำงานของผู้ใช้งานภายในองค์กร"
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Privileged Acccess Management",
+          "subtitle": "ปกป้อง และตรวจสอบการใช้งานของผู้ใช้งานที่มีสิทธิสูง เช่น root หรือ admin เพื่อป้องกันการถูกนำไปใช้ในการโจรกรรมข้อมูล หรือ การใช้งานที่ไม่เหมาะสม"
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Multi-Factor Authentication",
+          "subtitle": "เพิ่มการตรวจสอบตัวตนผู้ใช้งานให้ถูกต้อง แม่นยำมากขึ้น โดยการยืนยันขั้นที่สอง นอกเหนือจากการใช้งานเพียงแค่รหัสผ่าน"
+        }
+      ]
+    },
+    {
+      "type": "Data Security",
+      "scope": "ปกป้องทรัพย์สินดิจิทัลอันมีค่าจากการเข้าถึงโดยไม่ได้รับอนุญาต และตรวจสอบการใช้ข้อมูลอย่างต่อเนื่องเพื่อป้องกันการถูกโจรกรรมทางไซเบอร์",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Data Protection ",
+          "subtitle": "ปกป้องข้อมูลจากความเสียหายโดยการโจมตีทางไซเบอร์ หรือ การถูกโจรกรรมข้อมูล ไม่ว่าข้อมูลนั้นจะกำลังอยู่ระหว่างการใช้งาน หรือ ถูกเก็บรักษาไว้ที่ใดก็ตาม"
+        },
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Data Breach Detection",
+          "subtitle": "ตรวจสอบการใช้งานข้อมูลตลอดเวลา เพื่อป้องกันการโจรกรรมทางไซเบอร์ หรือ การใช้งานที่ไม่เหมาะสม เพื่อให้มั่นใจว่าข้อมูลสำคัญ และข้อมูลอ่อนไหวได้รับการปกป้อง ไม่ว่าข้อมูลจะถูกเก็บไว้อย่างไร  หรือถูกส่งไปที่ใด"
+        }, {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Database Activity Monitoring",
+          "subtitle": "ตรวจสอบการละเมิด และวิเคราะห์พฤติกรรมการใช้เรียกใช้งานฐานข้อมูลที่ผิดปกติ และการแจ้งเตือนให้ผู้ดูแลฐานข้อมูลทราบ เพื่อเข้ามาดำเนินการแก้ไขได้ทันเวลา"
+        }
+      ]
+    },
+    {
+      "type": "Security Event Management and Monitoring",
+      "scope": "เชื่อมต่อข้อมูลจากเทคโนโลยีในการตรวจจับที่หลากหลาย วิเคราะห์ และสร้างความเชื่อมโยงความสัมพันธ์ เพื่อเสริมความสามารถในการมองหาภัยคุกคาม และเหตุการณ์ผิดปกติให้มีประสิทธิภาพมากยิ่งขึั้น",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Security Information and Event Management",
+          "subtitle": "รวบรวมข้อมูลแจ้งเตือนจากอุปกรณ์ด้านการรักษาความปลอดภัย สร้างความสัมพันธ์เพื่อค้นหาเหตุการณ์ผิดปกติด้านความปลอดภัยทางไซเบอร์ และสร้างการแจ้งเตือนไปยังผู้ดูแลระบบ"
+        }, {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Security Orchestration, Automation and Response",
+          "subtitle": "สนับสนุนการทำงานของทีมปฏิบัติการด้านความปลอดภัยในการควบคุม และตอบโต้ภัยคุกคามทางไซเบอร์ ด้วย digital workflow ที่วิเคราะห์ข้อมูลแจ้งเตือน เพื่อกำหนดแนวทางในการตรวจสอบ และแก้ไขได้โดยอัตโนมัติ"
+        },  {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "User & Event Behavior Analytics",
+          "subtitle": "ตรวจจับ และวิเคราะห์พฤติกรรมของผู้ใช้งาน เพื่อมองหาความผิดปกติที่อาจบ่งชี้ถึงภัยคุกคามที่อาจเกิดขึ้นภายในองค์กร"
+        },  {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Breach and Attack Simulation",
+          "subtitle": "ตรวจสอบตัวเองอย่างต่อเนื่องเพื่อสร้างความมั่นใจว่า ระบบควบคุม และตรวจสอบความปลอดภัย สามารถปกป้ององค์กรจากเหตุการณ์ความปลอดภัยทางไซเบอร์ได้"
+        }
+      ]
+    },
+    {
+      "type": "Managed Security Services",
+      "scope": "ให้บริการตรวจสอบ และแจ้งเตือนเหตุการณ์ผิดปกติภายในองค์กร  โดยทีมงานมืออาชีพ เพื่อตอบสนองต่อเหตุการณ์ด้านความปลอดภัยในโลกไซเบอร์ได้อย่างทันท่วงที",
+      "ss": [
+        {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Managed Threat Detection",
+          "subtitle": "ให้บริการการตรวจสอบภัยคุกคามตลอดเวลา โดยผสานเทคโนโลยี SIEM, Threat Intelligence กับ ทีมงานที่มีประสบการณ์ และกระบวนการที่เป็นมาตรฐานสากล"
+        },  {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Managed Detection and Response",
+          "subtitle": "ให้บริการตรวจสอบเป็นพิเศษด้วยเทคโนโลยี EDR ที่สามารถสืบค้น บ่งชี้ ไปจนถึงการแก้ไขเหตุผิดปกติที่เกิดขึ้นกับอุปกรณ์ปลายทางได้"
+        },  {
+          "img": "/assets/images/services/cyber_service.png",
+          "title": "Vulnerability Assessment",
+          "subtitle": "ให้บริการประเมินความเสี่ยงที่เกิดจากช่องโหว่ใน ระบบปฏิบัติการ ซอฟต์แวร์ หรือ อุปกรณ์ความปลอดภัยเครือข่าย เพื่อให้ผู้ดูแลระบบทราบ และดำเนินการแก้ไขได้"
+        }
+      ]
+    }
+  ],
+  "about": {
+    "banner-headder": {
+      "subtitle" : "ไซเบอร์จีนิคซ์ เราไม่ได้เป็นเพียงบริษัทความปลอดภัยทางด้านไซเบอร์ <span class=newline-dis>แต่ความปลอดภัยฝังลึกอยู่ใน DNA ของเราทุกคน</span> <br><br> ​ภายใต้แนวความคิดการทำงาน <b><span class=newline>“Cybersecurity in every DNA.”</span></b>​​"
+    },
+    "OurVisionandMission": "Our Vision and Mission",
+    "ProvideVisionandMission": "Provide Advanced Security <span class=\"text-red h3\">for Advanced Threats</span>",
+    "vision": {
+      "title": "วิสัยทัศน์",
+      "description": "เรามุ่งมั่นผลักดันการเติบโต และเปลี่ยนแปลงทางธุรกิจด้วยมาตรฐานการรักษาความปลอดภัยทางไซเบอร์ระดับโลกครอบคลุมจากต้นน้ำถึงปลายน้ำ"
+    },
+    "mission": {
+      "title": "พันธกิจ​",
+      "description": "​ร่วมสร้างระบบความปลอดภัยทางไซเบอร์ในโลกธุรกิจ ผ่านแนวความคิด และระบบที่ครอบคลุม โดยทีมงานที่ความปลอดภัยฝังลึกในดีเอ็นเอ​"
+    },
+    "managementteam": {
+      "title": "<span class=\"text-red h3\">ทีมบริหาร</span>",
+      "subtitle": "CyberGenics Organization",
+      "description": "ทีม CyberGenics ขับเคลื่อนไปข้างหน้าอย่างไม่หยุดยั้ง ด้วยกลุ่มผู้เชี่ยวชาญ<span class=\"newline-dis text-16\">เฉพาะด้านความปลอดภัยทางไซเบอร์ ​มากว่า 30 ปี เพื่อตอบโจทย์ให้กับทุกองค์กร</span>​",
+      "mm1": "Sutee Assawasoontarangkoon",
+      "ro1": "Director",
+      "mm2": "Tachapon Udomakarachoke",
+      "ro2": "Chief Sales Officer",
+      "mm3": "Thananunt Maneekul",
+      "ro3": "Chief Operating Officer",
+      "mm4": "Apirom Kitisophakul",
+      "ro4": "Solution Integration & <br>Project Management Manager",
+      "mm5": "Alongkorn Hongsawat",
+      "ro5": "Security Presales Manager",
+      "mm6": "Nitchakarn Niltrakarnkul",
+      "ro6": "Partner Engagement Manager"
+    },
+    "boardofdirector": {
+      "title": "<span class=\"text-red h3\">คณะกรรมการบริษัท</span>",
+      "subtitle": "CyberGenics Organization",
+      "description": "ทีม CyberGenics ขับเคลื่อนไปข้างหน้าอย่างไม่หยุดยั้ง ด้วยกลุ่มผู้เชี่ยวชาญ<span class=\"newline-dis text-16\">เฉพาะด้านความปลอดภัยทางไซเบอร์ ​มากว่า 30 ปี เพื่อตอบโจทย์ให้กับทุกองค์กร</span>​",
+      "mm1": "Dr. Chaiyuth Chunnahacha",
+      "ro1": "Chairman",
+      "mm2": "Mr. U-Krit Wongsarawit",
+      "ro2": "Director",
+      "mm3": "Nuannit Hongprapawong",
+      "ro3": "Director",
+      "mm4": "Kitayanee Asavanich",
+      "ro4": "Director",
+      "mm5": "Sutee Assawasoontarangkoon",
+      "ro5": "Director"
+    }
+  },
+  "customer": {
+    "title": "Customer Success",
+    "subtitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+    "highlight": {
+      "title": "Identify suspicious transactions from ransomware within 3 days",
+      "desc": "Blendata’s only needs 3 days to comb through 6 months of big data to identify suspicious transactions. The quick response prevents system shutdown which could lead to tremendous loss.",
+      "link": "success-case-1.html",
+      "content-title": "Fast and effective customer service is the key to retaining the customer base",
+      "content-desc": "As one of Thailand’s leading mobile phone operators with more than 40 million customers countrywide, fast and effective customer service is the key to retaining the customer base. It relies on various types of data such as personal data and usage logs, through numerous channels and devices to analyse and fix issues. The data size constantly grows larger as mobile users always update and change their information until the storage becomes huge and staggering in different departments. It takes weeks to collect information and investigate a customer complaint affecting service quality."
+    },
+    "case1": {
+      "subtitle": "Data Warehouse",
+      "title": "Search 10 years of history within seconds to efficiently support your business",
+      "desc": "Blendata’s overcomes the restriction of conventional big data storage with a new solution that allows organizations to store and search 10 years of data within seconds, superseding traditional data archiving to support your business and reduces TCO by half.",
+      "link": "success-case-2.html",
+      "content-title": "Fast and effective customer service is the key to retaining the customer base",
+      "content-desc": "As one of Thailand’s leading mobile phone operators with more than 40 million customers countrywide, fast and effective customer service is the key to retaining the customer base. It relies on various types of data such as personal data and usage logs, through numerous channels and devices to analyse and fix issues. The data size constantly grows larger as mobile users always update and change their information until the storage becomes huge and staggering in different departments. It takes weeks to collect information and investigate a customer complaint affecting service quality."
+    },
+    "case2": {
+      "subtitle": "Data Archiving",
+      "title": "Impress customers by reducing big data management time from weeks to seconds",
+      "desc": "Create an operational data warehouse to reduce customer complaint handling time from 2 weeks to seconds and quickly deliver a solution to the customer to ensure the best experience and satisfaction.",
+      "link": "success-case-3.html",
+      "content-title": "Fast and effective customer service is the key to retaining the customer base",
+      "content-desc": "As one of Thailand’s leading mobile phone operators with more than 40 million customers countrywide, fast and effective customer service is the key to retaining the customer base. It relies on various types of data such as personal data and usage logs, through numerous channels and devices to analyse and fix issues. The data size constantly grows larger as mobile users always update and change their information until the storage becomes huge and staggering in different departments. It takes weeks to collect information and investigate a customer complaint affecting service quality."
+    },
+    "case3": {
+      "subtitle": "Cybersecurity Data Lake",
+      "title": "Conduct forensics within seconds with enhanced cybersecurity for banks",
+      "desc": "In the past, security analysts couldn’t conduct forensics on big data. With Blendata’s centralized data storage, security data analysts can conduct forensics and fix issues instantly as well as analyse data independently to create threat patterns to protect customers’ data actively.",
+      "link": "success-case-4.html",
+      "content-title": "Fast and effective customer service is the key to retaining the customer base",
+      "content-desc": "As one of Thailand’s leading mobile phone operators with more than 40 million customers countrywide, fast and effective customer service is the key to retaining the customer base. It relies on various types of data such as personal data and usage logs, through numerous channels and devices to analyse and fix issues. The data size constantly grows larger as mobile users always update and change their information until the storage becomes huge and staggering in different departments. It takes weeks to collect information and investigate a customer complaint affecting service quality."
+    }
+  },
+  "contact": {
+    "header": "ติดต่อเรา",
+    "desc": "ทีมผู้เชี่ยวชาญของไซเบอร์จีนิกส์ พร้อมที่จะให้คำปรึกษา และให้ความช่วยเหลือ<span class=newline-dis>ด้านความปลอดภัยทางไซเบอร์ กับองค์กรของคุณในทุกรูปแบบ</span>​",
+    "get-in-touch": {
+      "header": "ช่องทางการติดต่อ",
+      "address": "ที่อยู่",
+      "address-detail": "127/22 อาคารปัญจธานีทาวเวอร์ <br> ชั้นที่ 17 ถนนนนทรี แขวงช่องนนทรี <br> เขตยานนาวา กรุงเทพมหานคร 10120 <span class=newline>เลขทะเบียนบริษัท 0105565133661</span>",
+      "callus": "ติดต่อเรา",
+      "description": "สนใจปรึกษาด้านการวางระบบ cybersecurity ให้แก่องค์กร <br>สามารถติดต่อเราได้ตามช่องทางนี้​"
+    }
+  }
+}
