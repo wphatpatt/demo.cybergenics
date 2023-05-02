@@ -34,7 +34,7 @@
 }
 
 .feature-item-three .icon.wedo img {
-  content: url('./assets/images/icon-home/What we do.png');
+  content: url('../images/icon-home/What we do.png');
 }
 
 .feature-item-three .icon.wedeliver img {
