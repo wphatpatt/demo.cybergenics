@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "cybergenic-static-site",
+      "script": "./mini_server.js",
+      "env": {
+        "NODE_ENV": "production",
+        "DOCKER": true
+      }
+    }
+  ]
+}
