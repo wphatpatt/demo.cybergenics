@@ -3,12 +3,26 @@ name: CI
 on:
   pull_request:
     branches: [ main ]
+  
+  push:
+    branches: [github_pages_test]
 
   workflow_dispatch:
+
+permission:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      run: npm install
-      run: npm run watch && npx http-server -p 5500 ./html
+      - name: install
+        run: npm install
+
+      - name: run
+        run: npm run watch && npx http-server -p 5500 ./html
+      
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: build
