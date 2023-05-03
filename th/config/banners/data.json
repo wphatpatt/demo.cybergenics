@@ -1,0 +1,25 @@
+[
+  {
+    "imageSrc": "<img src=./config/banners/images/home_01.png>",
+    "en": {
+      "subtitle": "We offer the best protection",
+      "title": "CyberGenics",
+      "detail": "Leading cybersecurity consultant and solution provider. Create comprehensive cybersecurity solutions & systems to fulfill every business’s need.",
+      "description": "Because cybersecurity is imprinted in our DNA. We are ready to build a distinguished and totally safe cyberspace for all your businesses.​",
+      "primaryBtn": "More",
+      "primaryBtnLink": "aboutus.html",
+      "secondaryBtn": "",
+      "secondaryBtnLink": ""
+    },
+    "th": {
+      "subtitle": "",
+      "title": "ไซเบอร์จีนิคซ์",
+      "detail": "ผู้นำด้านการให้คำปรึกษา และให้บริการ Cybersecurity Solution แบบครบวงจร",
+      "description": "เพราะความปลอดภัยทางไซเบอร์ฝังลึกอยู่ใน DNA ของเรา <br>เราพร้อมสร้างโลกไซเบอร์ที่ปลอดภัยรอบด้าน และแตกต่างให้กับทุกธุรกิจของคุณ",
+      "primaryBtn": "ดูเพิ่มเติม",
+      "primaryBtnLink": "aboutus.html",
+      "secondaryBtn": "",
+      "secondaryBtnLink": ""
+    }
+  }
+]
