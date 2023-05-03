@@ -560,7 +560,7 @@
   }
 
   .service-page .page-banner {
-    background-image: url('../images/banners/Mobile_BG_Solution.png');
+    background-image: url('../assets/images/banners/Mobile_BG_Solution.png');
   }
 
   .tech-solution .left-img {
@@ -871,7 +871,7 @@
 
 @media screen and (max-width: 767px) {
   .service-page .page-banner {
-    background-image: url('../images/banners/Mobile_BG_Solution.png');
+    background-image: url('../assets/images/banners/Mobile_BG_Solution.png');
   }
 
   .tech-solution .left-img {
