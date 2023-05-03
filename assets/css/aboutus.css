@@ -301,7 +301,7 @@ a.theme-btn.style-nine {
 }
 
 .aboutus-page .page-banner {
-    background-image: url('..//images/banners/aboutus.png');
+    background-image: url('../images/banners/aboutus.png');
  }
 
 @media (max-width: 1200px) {
@@ -327,7 +327,7 @@ a.theme-btn.style-nine {
 
 @media (max-width: 1279px) {
     .aboutus-page .page-banner {
-        background-image: url('..//images/banners/Mobile_BG_About us.png');
+        background-image: url('../images/banners/Mobile_BG_About us.png');
      }
     .about-image-shape:before {
         display: none;
@@ -599,7 +599,7 @@ a.theme-btn.style-nine {
 
 @media (max-width: 767px) {
     .aboutus-page .page-banner {
-        background-image: url('..//images/banners/Mobile_BG_About us.png');
+        background-image: url('../images/banners/Mobile_BG_About us.png');
      }
     
     .newline::before {

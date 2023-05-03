@@ -540,7 +540,7 @@
 }
 
 .service-page .page-banner {
-  background-image: linear-gradient(to right, rgba(0,0,0,0.8) 20%, rgba(0,0,0, 0) 50%),url('../images/banners/solution.png');
+  background-image: linear-gradient(to right, rgba(0,0,0,0.8) 20%, rgba(0,0,0, 0) 50%),url('./assets/images/banners/solution.png');
 }
 
 .newline-dis::before {

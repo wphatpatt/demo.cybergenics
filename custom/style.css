@@ -96,7 +96,7 @@ a:hover {
 .big_bg {
         background-position-x: 100% !important;
         background-repeat: no-repeat;
-        background: url('../images/home/large_cg.svg');
+        background: url('./assets/images/home/large_cg.svg');
         background-size: auto;
         background-repeat: no-repeat !important;
 }
